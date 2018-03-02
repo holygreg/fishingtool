@@ -1,0 +1,5 @@
+package gregor.persist.util;
+
+public enum FeedingType {
+
+}

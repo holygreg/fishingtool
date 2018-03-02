@@ -1,0 +1,48 @@
+package persist.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Hook implements Serializable {
+
+	@Id
+	@GeneratedValue
+	@Column(name = "id")
+	private int id;
+
+	@Column(name="hook_size")
+	private int hookSize;
+	
+	@Column(name="barb")
+	private boolean barb;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getHookSize() {
+		return hookSize;
+	}
+
+	public void setHookSize(int hookSize) {
+		this.hookSize = hookSize;
+	}
+
+	public boolean isBarb() {
+		return barb;
+	}
+
+	public void setBarb(boolean barb) {
+		this.barb = barb;
+	}
+
+}

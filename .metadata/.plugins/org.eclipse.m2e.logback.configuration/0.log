@@ -1,0 +1,1218 @@
+2018-03-01 15:57:30,369 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-01 15:58:06,194 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml
+2018-03-01 15:58:07,543 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 15:58:07,810 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 15:58:07,813 [Worker-4] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 15:58:09,431 [Worker-4] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2018-03-01 15:58:11,434 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:58:11,435 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 15:58:11,439 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:58:11,439 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 15:58:12,110 [main] ERROR o.e.m2e.editor.pom.MavenPomEditor - Editor could not be initialized.
+org.eclipse.ui.PartInitException: Editor could not be initialized.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3188) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.init(StructuredTextEditor.java:2651) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:237) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.forms.editor.FormEditor.addPage(FormEditor.java:330) [org.eclipse.ui.forms_3.7.101.v20170815-1446.jar:na]
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:211) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.forms.editor.FormEditor.addPage(FormEditor.java:312) [org.eclipse.ui.forms_3.7.101.v20170815-1446.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addSourcePage(MavenPomEditor.java:626) [org.eclipse.m2e.editor_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addPages(MavenPomEditor.java:363) [org.eclipse.m2e.editor_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:140) [org.eclipse.ui.forms_3.7.101.v20170815-1446.jar:na]
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:348) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:355) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:955) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:124) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:399) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:318) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162) [org.eclipse.e4.core.contexts_1.6.0.v20170322-1144.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.101.v20170713-1343.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1293) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.101.v20170713-1343.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.lambda$0(LazyStackRenderer.java:68) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.101.v20170713-1343.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40) ~[org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144) ~[na:na]
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5455) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212) ~[org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36) ~[org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1) ~[na:na]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78) ~[na:na]
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39) ~[na:na]
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52) ~[org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374) ~[org.eclipse.emf.common_2.13.0.v20170609-0707.jar:na]
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173) ~[org.eclipse.e4.ui.model.workbench_2.0.1.v20170713-1800.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:620) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:584) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:769) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1188) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3261) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3176) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3158) ~[na:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3153) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3117) ~[na:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3107) ~[na:na]
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:563) ~[na:na]
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:518) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:360) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:167) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:279) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:244) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:271) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:249) ~[na:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:379) ~[na:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:541) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:46) ~[na:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:851) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:44) ~[na:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:848) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1163) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:273) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:268) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:308) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5268) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1348) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4522) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4107) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150) ~[org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) ~[org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+Caused by: java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:204) ~[na:na]
+	at scala.tools.scalap.Classfile.<init>(Classfile.scala:17) ~[na:na]
+	at org.scalaide.core.internal.jdt.model.ScalaClassFileDescriber$.isScala(ScalaClassFileDescriber.scala:16) ~[na:na]
+	at org.scalaide.core.internal.jdt.model.ScalaClassFileDescriber.describe(ScalaClassFileDescriber.scala:38) ~[na:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.describe(ContentTypeCatalog.java:226) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:197) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:409) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:458) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.findContentTypesFor(ContentTypeCatalog.java:306) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeMatcher.findContentTypeFor(ContentTypeMatcher.java:36) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.wst.sse.core.internal.modelhandler.ModelHandlerRegistry.getHandlerFor(ModelHandlerRegistry.java:230) ~[org.eclipse.wst.sse.core_1.1.1001.v201707042225.jar:na]
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.calculateType(ModelManagerImpl.java:750) ~[org.eclipse.wst.sse.core_1.1.1001.v201707042225.jar:na]
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForEdit(ModelManagerImpl.java:1427) ~[org.eclipse.wst.sse.core_1.1.1001.v201707042225.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.loadModel(StorageModelProvider.java:733) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.loadModel(StorageModelProvider.java:705) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.selfCreateModel(StorageModelProvider.java:761) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.createModelInfo(StorageModelProvider.java:478) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.createElementInfo(StorageModelProvider.java:469) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:392) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:257) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466) ~[org.eclipse.ui.editors_3.11.0.v20170202-1823.jar:na]
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150) ~[org.eclipse.ui.editors_3.11.0.v20170202-1823.jar:na]
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.doSetInput(StructuredTextEditor.java:1958) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2195) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2191) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	... 114 common frames omitted
+2018-03-01 15:58:13,212 [main] ERROR o.e.m2e.editor.pom.OverviewPage - Failed to populate overview panel
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510) ~[org.eclipse.m2e.core.ui_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129) ~[na:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4497) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4110) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) ~[org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+2018-03-01 15:58:54,250 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 15:58:54,411 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:58:54,411 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 15:58:54,415 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:58:54,416 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 15:59:33,835 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 15:59:34,119 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:59:34,119 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 15:59:34,123 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:59:34,123 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 15:59:35,431 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:59:35,431 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 15:59:35,447 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:59:35,447 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 15:59:45,714 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 15:59:45,908 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:59:45,908 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 15:59:45,951 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 15:59:45,951 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:00:02,231 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:00:02,232 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:00:02,233 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:00:02,234 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:00:29,413 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/gregor/Eclipse_Workspaces/FishermansFriend/test
+2018-03-01 16:00:29,414 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-03-01 16:00:34,789 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:00:34,790 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:00:34,792 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:00:34,792 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:00:56,629 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 16:00:57,089 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 16:00:57,191 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 16:00:57,192 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 16:00:57,437 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 16:00:57,705 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:00:57,709 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:00:57,712 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:00:57,712 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:01:14,674 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:14,674 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:01:14,676 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:14,676 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:01:15,702 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:15,702 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:01:15,703 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:15,704 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:01:25,563 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:25,563 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:01:25,564 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:25,564 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:01:42,673 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:42,673 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:01:42,675 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:42,675 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:01:56,567 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:56,568 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:01:56,574 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:01:56,574 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:02:09,371 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 16:02:09,854 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 16:02:09,962 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 16:02:09,962 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 16:02:10,015 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 16:02:10,284 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:02:10,285 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:02:10,292 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:02:10,292 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:05:21,833 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/gregor/Eclipse_Workspaces/FishermansFriend/test
+2018-03-01 16:05:21,833 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-03-01 16:05:25,839 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:05:25,839 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:05:25,843 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:05:25,843 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:05:55,271 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/gregor/Eclipse_Workspaces/FishermansFriend/test
+2018-03-01 16:05:55,271 [Worker-8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-03-01 16:05:57,522 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:05:57,523 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:05:57,525 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:05:57,525 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:06:15,293 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 16:06:15,709 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 16:06:15,803 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 16:06:15,803 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 16:06:15,842 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 16:06:16,070 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:06:16,070 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:06:16,072 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:06:16,073 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:06:28,967 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/gregor/Eclipse_Workspaces/FishermansFriend/test
+2018-03-01 16:06:28,967 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-03-01 16:06:32,458 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:06:32,458 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:06:32,459 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:06:32,459 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:07:45,022 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 16:07:45,384 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 16:07:45,518 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 16:07:45,521 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 16:07:45,576 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 16:07:45,939 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:07:45,939 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:07:45,941 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:07:45,941 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:07:53,660 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:07:53,661 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:07:53,662 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:07:53,662 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:09:34,231 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 16:09:34,548 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/openstreetmap/jmapviewer/jmapviewer/2.0/jmapviewer-2.0.pom
+2018-03-01 16:09:34,582 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/openstreetmap/jmapviewer/jmapviewer/2.0/jmapviewer-2.0.pom
+2018-03-01 16:09:34,612 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/openstreetmap/jmapviewer/jmapviewer/2.0/jmapviewer-2.0.jar
+2018-03-01 16:09:34,692 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/openstreetmap/jmapviewer/jmapviewer/2.0/jmapviewer-2.0.jar
+2018-03-01 16:09:34,844 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:09:34,844 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:09:34,847 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:09:34,847 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:09:36,053 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:09:36,054 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:09:36,055 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:09:36,055 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:09:45,624 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 16:09:45,953 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 16:09:46,036 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 16:09:46,037 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 16:09:46,077 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 16:09:46,298 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:09:46,298 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:09:46,300 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:09:46,300 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:10:13,976 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:10:13,977 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:10:13,978 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:10:13,978 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:10:17,164 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:10:17,164 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:10:17,165 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:10:17,165 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:18:43,543 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:18:43,543 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:18:43,545 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:18:43,545 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:20:49,779 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:20:49,779 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:20:49,780 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:20:49,780 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:34:29,525 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:34:29,526 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:34:29,527 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:34:29,527 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:51:02,505 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:51:02,505 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:51:02,506 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:51:02,507 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 16:51:38,098 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:51:38,099 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 16:51:38,101 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 16:51:38,101 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 20:24:36,738 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-01 20:25:15,855 [main] ERROR o.e.m2e.editor.pom.MavenPomEditor - Editor could not be initialized.
+org.eclipse.ui.PartInitException: Editor could not be initialized.
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3188) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3197) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.init(StructuredTextEditor.java:2651) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:237) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.forms.editor.FormEditor.addPage(FormEditor.java:330) [org.eclipse.ui.forms_3.7.101.v20170815-1446.jar:na]
+	at org.eclipse.ui.part.MultiPageEditorPart.addPage(MultiPageEditorPart.java:211) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.forms.editor.FormEditor.addPage(FormEditor.java:312) [org.eclipse.ui.forms_3.7.101.v20170815-1446.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addSourcePage(MavenPomEditor.java:626) [org.eclipse.m2e.editor_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addPages(MavenPomEditor.java:363) [org.eclipse.m2e.editor_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:140) [org.eclipse.ui.forms_3.7.101.v20170815-1446.jar:na]
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:348) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:151) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:355) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:990) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:955) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:124) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:399) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:318) [org.eclipse.e4.core.di_1.6.100.v20170421-1418.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162) [org.eclipse.e4.core.contexts_1.6.0.v20170322-1144.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129) [org.eclipse.e4.ui.workbench.renderers.swt_0.14.101.v20170713-1343.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:992) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:661) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:767) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:738) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:732) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:716) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40) [org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:5455) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36) [org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201) [org.eclipse.equinox.event_1.4.0.v20170105-1446.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197) [org.eclipse.equinox.event_1.4.0.v20170105-1446.jar:na]
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1) [org.eclipse.equinox.event_1.4.0.v20170105-1446.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135) [org.eclipse.equinox.event_1.4.0.v20170105-1446.jar:na]
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78) [org.eclipse.equinox.event_1.4.0.v20170105-1446.jar:na]
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39) [org.eclipse.equinox.event_1.4.0.v20170105-1446.jar:na]
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52) [org.eclipse.e4.ui.services_1.3.0.v20170307-2032.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374) [org.eclipse.emf.common_2.13.0.v20170609-0707.jar:na]
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:173) [org.eclipse.e4.ui.model.workbench_2.0.1.v20170713-1800.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:620) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:584) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:769) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:401) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1188) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3261) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$25(WorkbenchPage.java:3176) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:3158) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3153) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3117) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3107) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:563) [org.eclipse.ui.ide_3.13.1.v20170822-1526.jar:na]
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:518) [org.eclipse.ui.ide_3.13.1.v20170822-1526.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:360) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:167) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:279) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:244) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:271) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:249) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:379) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:541) [org.eclipse.jdt.ui_3.13.50.v20170929-1653.jar:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:46) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:851) [org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.9.0.v20170207-1454.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:44) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:848) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1163) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:273) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:268) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:308) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5268) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1348) ~[org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4522) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4107) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150) ~[org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) ~[org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153) ~[org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) ~[org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) ~[org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+Caused by: java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:204) ~[na:na]
+	at scala.tools.scalap.Classfile.<init>(Classfile.scala:17) ~[na:na]
+	at org.scalaide.core.internal.jdt.model.ScalaClassFileDescriber$.isScala(ScalaClassFileDescriber.scala:16) ~[na:na]
+	at org.scalaide.core.internal.jdt.model.ScalaClassFileDescriber.describe(ScalaClassFileDescriber.scala:38) ~[na:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.describe(ContentTypeCatalog.java:226) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.collectMatchingByContents(ContentTypeCatalog.java:197) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:409) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.internalFindContentTypesFor(ContentTypeCatalog.java:458) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeCatalog.findContentTypesFor(ContentTypeCatalog.java:306) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.core.internal.content.ContentTypeMatcher.findContentTypeFor(ContentTypeMatcher.java:36) ~[org.eclipse.core.contenttype_3.6.0.v20170207-1037.jar:na]
+	at org.eclipse.wst.sse.core.internal.modelhandler.ModelHandlerRegistry.getHandlerFor(ModelHandlerRegistry.java:230) ~[org.eclipse.wst.sse.core_1.1.1001.v201707042225.jar:na]
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.calculateType(ModelManagerImpl.java:750) ~[org.eclipse.wst.sse.core_1.1.1001.v201707042225.jar:na]
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForEdit(ModelManagerImpl.java:1427) ~[org.eclipse.wst.sse.core_1.1.1001.v201707042225.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.loadModel(StorageModelProvider.java:733) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.loadModel(StorageModelProvider.java:705) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.selfCreateModel(StorageModelProvider.java:761) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.createModelInfo(StorageModelProvider.java:478) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.wst.sse.ui.internal.StorageModelProvider.createElementInfo(StorageModelProvider.java:469) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:392) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.doSetInput(AbstractTextEditor.java:4178) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.StatusTextEditor.doSetInput(StatusTextEditor.java:257) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.doSetInput(AbstractDecoratedTextEditor.java:1466) ~[org.eclipse.ui.editors_3.11.0.v20170202-1823.jar:na]
+	at org.eclipse.ui.editors.text.TextEditor.doSetInput(TextEditor.java:150) ~[org.eclipse.ui.editors_3.11.0.v20170202-1823.jar:na]
+	at org.eclipse.wst.sse.ui.StructuredTextEditor.doSetInput(StructuredTextEditor.java:1958) ~[org.eclipse.wst.sse.ui_1.3.600.v201707042340.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor$5.run(AbstractTextEditor.java:3154) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353) ~[org.eclipse.jface_3.13.1.v20170810-0135.jar:na]
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2195) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2191) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3172) ~[org.eclipse.ui.workbench.texteditor_3.10.100.v20170426-2021.jar:na]
+	... 113 common frames omitted
+2018-03-01 20:25:17,041 [main] ERROR o.e.m2e.editor.pom.OverviewPage - Failed to populate overview panel
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510) ~[org.eclipse.m2e.core.ui_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129) ~[na:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4497) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4110) [org.eclipse.swt.gtk.linux.x86_64_3.106.1.v20170926-0519.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039) [org.eclipse.e4.ui.workbench.swt_0.14.101.v20170710-1119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153) [org.eclipse.e4.ui.workbench_1.5.1.v20170815-1446.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336) [org.eclipse.core.databinding.observable_1.6.100.v20170515-1119.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594) [org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148) ~[org.eclipse.ui.workbench_3.110.1.v20170704-1208.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) ~[org.eclipse.equinox.app_1.3.400.v20150715-1528.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243) ~[org.eclipse.osgi_3.12.50.v20170928-1321.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_151]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_151]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_151]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_151]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1472) ~[org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar:na]
+2018-03-01 20:27:49,155 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 20:27:49,843 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.pom
+2018-03-01 20:27:49,888 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.pom
+2018-03-01 20:27:49,983 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.pom
+2018-03-01 20:27:50,031 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.pom
+2018-03-01 20:27:50,094 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2018-03-01 20:27:50,168 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jboss-parent/15/jboss-parent-15.pom
+2018-03-01 20:27:50,239 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2018-03-01 20:27:50,286 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.pom
+2018-03-01 20:27:50,372 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.pom
+2018-03-01 20:27:50,438 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.pom
+2018-03-01 20:27:50,534 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.pom
+2018-03-01 20:27:50,592 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.pom
+2018-03-01 20:27:50,644 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jboss-parent/20/jboss-parent-20.pom
+2018-03-01 20:27:50,697 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jboss-parent/20/jboss-parent-20.pom
+2018-03-01 20:27:50,744 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.pom
+2018-03-01 20:27:50,783 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.pom
+2018-03-01 20:27:50,831 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2018-03-01 20:27:50,876 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jboss-parent/12/jboss-parent-12.pom
+2018-03-01 20:27:50,958 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/com/fasterxml/classmate/1.3.0/classmate-1.3.0.pom
+2018-03-01 20:27:50,998 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/com/fasterxml/classmate/1.3.0/classmate-1.3.0.pom
+2018-03-01 20:27:51,074 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/com/fasterxml/oss-parent/24/oss-parent-24.pom
+2018-03-01 20:27:51,111 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/com/fasterxml/oss-parent/24/oss-parent-24.pom
+2018-03-01 20:27:51,180 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2018-03-01 20:27:51,237 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.pom
+2018-03-01 20:27:51,287 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.pom
+2018-03-01 20:27:51,338 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.pom
+2018-03-01 20:27:51,431 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.pom
+2018-03-01 20:27:51,470 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.pom
+2018-03-01 20:27:51,540 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/apache/derby/derby-project/10.14.1.0/derby-project-10.14.1.0.pom
+2018-03-01 20:27:51,582 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/apache/derby/derby-project/10.14.1.0/derby-project-10.14.1.0.pom
+2018-03-01 20:27:51,663 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/slf4j/slf4j-api/1.8.0-beta1/slf4j-api-1.8.0-beta1.pom
+2018-03-01 20:27:51,697 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/slf4j/slf4j-api/1.8.0-beta1/slf4j-api-1.8.0-beta1.pom
+2018-03-01 20:27:51,761 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/slf4j/slf4j-parent/1.8.0-beta1/slf4j-parent-1.8.0-beta1.pom
+2018-03-01 20:27:51,798 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/slf4j/slf4j-parent/1.8.0-beta1/slf4j-parent-1.8.0-beta1.pom
+2018-03-01 20:27:52,434 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.jar
+2018-03-01 20:27:55,416 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/hibernate-core/5.2.13.Final/hibernate-core-5.2.13.Final.jar
+2018-03-01 20:27:55,503 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar
+2018-03-01 20:27:55,573 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar
+2018-03-01 20:27:55,621 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2018-03-01 20:27:55,720 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+2018-03-01 20:27:55,886 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar
+2018-03-01 20:27:56,201 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar
+2018-03-01 20:27:56,244 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar
+2018-03-01 20:27:56,433 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar
+2018-03-01 20:27:56,476 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar
+2018-03-01 20:27:56,601 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar
+2018-03-01 20:27:56,781 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar
+2018-03-01 20:27:57,316 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar
+2018-03-01 20:27:57,478 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2018-03-01 20:27:57,580 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+2018-03-01 20:27:57,942 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+2018-03-01 20:28:01,551 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+2018-03-01 20:28:01,619 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://josm.openstreetmap.de/nexus/content/groups/public/org/slf4j/slf4j-api/1.8.0-beta1/slf4j-api-1.8.0-beta1.jar
+2018-03-01 20:28:01,681 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://josm.openstreetmap.de/nexus/content/groups/public/org/slf4j/slf4j-api/1.8.0-beta1/slf4j-api-1.8.0-beta1.jar
+2018-03-01 20:28:02,169 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 20:28:02,170 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 20:28:02,178 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 20:28:02,178 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 20:28:04,277 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 20:28:04,278 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 20:28:04,280 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 20:28:04,280 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:05:20,497 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:05:20,497 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:05:20,499 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:05:20,499 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:05:42,921 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:05:42,921 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:05:42,924 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:05:42,924 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:06:40,941 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:06:40,941 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:06:40,943 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:06:40,944 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:06:56,435 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:06:56,435 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:06:56,438 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:06:56,438 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:08:16,613 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:08:16,613 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:08:16,615 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:08:16,615 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:09:47,372 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:09:47,372 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:09:47,380 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:09:47,380 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:10:17,001 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:10:17,002 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:10:17,004 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:10:17,004 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:10:29,412 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:10:29,412 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:10:29,413 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:10:29,413 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:12:51,588 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:12:51,588 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:12:51,590 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:12:51,590 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:13:06,072 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:13:06,072 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:13:06,073 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:13:06,073 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:13:15,981 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:13:15,981 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:13:15,982 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:13:15,982 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:15:00,741 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:15:00,741 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:15:00,743 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:15:00,743 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:15:39,649 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:15:39,649 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:15:39,651 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:15:39,652 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:16:00,308 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:00,308 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:16:00,316 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:00,316 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:16:06,915 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:06,915 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:16:06,917 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:06,917 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:16:28,274 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:28,275 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:16:28,289 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:28,289 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:16:34,914 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:34,914 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:16:34,915 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:16:34,916 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:17:13,156 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 21:17:13,812 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 21:17:14,112 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 21:17:14,113 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 21:17:14,304 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-03-01 21:17:14,676 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:17:14,676 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:17:14,678 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:17:14,679 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:17:51,704 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/gregor/Eclipse_Workspaces/FishermansFriend/test
+2018-03-01 21:17:51,705 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-03-01 21:17:53,872 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:17:53,873 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:17:53,873 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:17:53,874 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:18:03,371 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/gregor/Eclipse_Workspaces/FishermansFriend/test
+2018-03-01 21:18:03,371 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-03-01 21:18:09,361 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:18:09,361 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:18:09,362 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:18:09,362 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:18:20,084 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 21:18:20,596 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 21:18:20,824 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 21:18:20,825 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 21:18:20,922 [Worker-6] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 21:18:21,405 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:18:21,405 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:18:21,408 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:18:21,408 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:23:39,786 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 21:23:39,990 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:23:39,990 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:23:39,992 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:23:39,992 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:23:50,429 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-03-01 21:23:50,928 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-01 21:23:51,121 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2018-03-01 21:23:51,123 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2018-03-01 21:23:51,191 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2018-03-01 21:23:51,626 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:23:51,626 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:23:51,630 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:23:51,631 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:35:20,194 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:35:20,195 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:35:20,196 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:35:20,196 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:37:57,937 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:37:57,937 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:37:57,938 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:37:57,938 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:38:04,182 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:38:04,182 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:38:04,183 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:38:04,183 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:44:41,620 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:44:41,620 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:44:41,622 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:44:41,622 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:45:01,357 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:45:01,357 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:45:01,359 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:45:01,359 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:45:29,629 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:45:29,629 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:45:29,630 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:45:29,630 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:48:22,999 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:48:22,999 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:48:23,009 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:48:23,009 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:49:50,455 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:49:50,455 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:49:50,456 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:49:50,456 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:50:56,971 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:50:56,972 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:50:56,973 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:50:56,973 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:51:24,734 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:51:24,734 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:51:24,736 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:51:24,736 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:53:46,855 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:53:46,855 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:53:46,856 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:53:46,857 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:54:02,649 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:54:02,650 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:54:02,650 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:54:02,651 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:54:17,651 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:54:17,651 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:54:17,652 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:54:17,652 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 21:54:36,459 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:54:36,459 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 21:54:36,461 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 21:54:36,461 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:03:30,089 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:03:30,089 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:03:30,091 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:03:30,091 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:04:35,787 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:04:35,787 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:04:35,788 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:04:35,788 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:09:15,053 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:09:15,053 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:09:15,056 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:09:15,056 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:09:51,629 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:09:51,629 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:09:51,630 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:09:51,630 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:10:40,647 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:10:40,647 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:10:40,648 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:10:40,648 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:10:58,914 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:10:58,915 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:10:58,915 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:10:58,916 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:11:21,660 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:11:21,660 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:11:21,661 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:11:21,661 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:11:30,059 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:11:30,059 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:11:30,060 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:11:30,060 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-01 22:11:46,531 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:11:46,531 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-01 22:11:46,532 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-01 22:11:46,532 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-02 11:46:12,433 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-02 11:46:16,355 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: test:test:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/test/pom.xml.
+2018-03-02 11:46:17,366 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:46:17,366 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-02 11:46:17,370 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:46:17,370 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-02 11:46:18,998 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:46:18,998 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/main/resources
+2018-03-02 11:46:19,003 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:46:19,003 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/test/src/test/resources
+2018-03-02 11:49:52,688 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gregor:fishingtool:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/pom.xml.
+2018-03-02 11:49:53,086 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:49:53,087 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 11:49:53,096 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:49:53,096 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 11:49:55,303 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:49:55,304 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 11:49:55,309 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:49:55,311 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 11:50:48,165 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:50:48,166 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 11:50:48,168 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 11:50:48,168 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:01:48,240 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:01:48,240 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:01:48,245 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:01:48,245 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:03:59,895 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:03:59,895 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:03:59,896 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:03:59,897 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:04:34,661 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:04:34,663 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:04:34,669 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:04:34,669 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:04:52,663 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:04:52,663 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:04:52,664 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:04:52,665 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:05:01,692 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:01,692 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:05:01,701 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:01,701 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:05:06,310 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:06,311 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:05:06,313 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:06,314 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:05:12,942 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:12,942 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:05:12,943 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:12,944 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:05:30,831 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:30,831 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:05:30,833 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:30,833 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:05:37,101 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:37,101 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:05:37,102 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:05:37,102 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:06:01,458 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:06:01,458 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:06:01,460 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:06:01,460 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:06:51,233 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:06:51,233 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:06:51,293 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:06:51,297 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:07:00,970 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:07:00,970 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:07:00,972 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:07:00,972 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:08:07,914 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:08:07,915 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:08:07,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:08:07,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:08:54,437 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:08:54,438 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:08:54,439 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:08:54,440 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:09:03,244 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:09:03,244 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:09:03,245 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:09:03,245 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:09:14,988 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:09:14,988 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:09:14,990 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:09:14,990 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:10:29,912 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:10:29,912 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:10:29,913 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:10:29,917 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:10:52,536 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:10:52,536 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:10:52,540 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:10:52,540 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:14:11,059 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:14:11,062 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:14:11,063 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:14:11,064 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:26:20,168 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:26:20,168 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:26:20,169 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:26:20,170 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:27:55,929 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:27:55,929 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:27:55,932 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:27:55,933 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:30:38,657 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:30:38,658 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:30:38,660 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:30:38,660 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:31:53,693 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:31:53,694 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:31:53,696 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:31:53,696 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:32:05,984 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:32:05,984 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:32:05,985 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:32:05,985 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:37:41,448 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:37:41,448 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:37:41,450 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:37:41,450 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:38:27,989 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:38:27,989 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:38:27,990 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:38:27,991 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:38:34,718 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:38:34,719 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:38:34,720 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:38:34,720 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:38:42,976 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:38:42,976 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:38:42,977 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:38:42,977 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:42:50,762 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:42:50,772 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:42:50,774 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:42:50,774 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:43:07,963 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:43:07,963 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:43:07,964 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:43:07,964 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:44:06,319 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:44:06,320 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:44:06,322 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:44:06,322 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:44:07,383 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:44:07,383 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:44:07,384 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:44:07,384 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:52:31,666 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-02 12:52:35,651 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gregor:fishingtool:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/pom.xml.
+2018-03-02 12:52:35,652 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gregor:fishingtool:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/pom.xml.
+2018-03-02 12:52:36,497 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:52:36,497 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:52:36,503 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:52:36,503 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:52:38,425 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: gregor:fishingtool:0.0.1-SNAPSHOT @ /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/pom.xml.
+2018-03-02 12:52:39,072 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:52:39,072 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 12:52:39,075 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 12:52:39,076 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 12:58:37,197 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-02 13:05:33,765 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:05:33,766 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:05:33,769 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:05:33,769 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:10:06,178 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:10:06,191 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:10:06,193 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:10:06,193 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:14:37,616 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:14:37,616 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:14:37,619 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:14:37,619 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:15:09,101 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:15:09,101 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:15:09,103 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:15:09,104 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:19:14,600 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:14,600 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:19:14,601 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:14,601 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:19:15,609 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:15,610 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:19:15,611 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:15,611 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:19:28,369 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:28,369 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:19:28,370 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:28,370 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:19:57,486 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:57,487 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:19:57,489 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:19:57,489 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:23:20,970 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:23:20,970 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:23:20,971 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:23:20,971 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:23:22,046 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:23:22,046 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:23:22,047 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:23:22,048 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:27:28,813 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:27:28,814 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:27:28,816 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:27:28,816 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:34:02,390 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:34:02,391 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:34:02,395 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:34:02,396 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:35:23,103 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:35:23,103 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:35:23,105 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:35:23,105 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:36:14,933 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:36:14,933 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:36:14,934 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:36:14,934 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:36:19,196 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:36:19,196 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:36:19,198 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:36:19,198 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:38:39,233 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:38:39,233 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:38:39,245 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:38:39,245 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:39:01,260 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:39:01,260 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:39:01,264 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:39:01,264 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:41:11,185 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:41:11,185 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:41:11,187 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:41:11,187 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:43:35,878 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:43:35,879 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:43:35,894 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:43:35,894 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:45:39,725 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:45:39,725 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:45:39,726 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:45:39,727 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:46:05,713 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:46:05,714 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:46:05,715 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:46:05,715 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:48:46,875 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:48:46,875 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:48:46,877 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:48:46,877 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:49:11,479 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:49:11,480 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:49:11,483 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:49:11,483 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:49:54,837 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:49:54,837 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:49:54,838 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:49:54,839 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:50:46,768 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:50:46,768 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:50:46,769 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:50:46,769 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:52:15,826 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:52:15,827 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:52:15,828 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:52:15,828 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:57:10,431 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:57:10,433 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:57:10,437 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:57:10,437 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:59:12,684 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:59:12,684 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:59:12,685 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:59:12,685 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 13:59:51,861 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:59:51,861 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 13:59:51,862 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 13:59:51,862 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:01:40,079 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:01:40,080 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:01:40,081 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:01:40,081 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:02:17,865 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:02:17,866 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:02:17,867 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:02:17,867 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:02:38,659 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:02:38,659 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:02:38,660 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:02:38,661 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:05:24,882 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:05:24,882 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:05:24,883 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:05:24,883 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:08:20,707 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:08:20,707 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:08:20,707 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:08:20,707 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:18:26,138 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:18:26,138 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:18:26,139 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:18:26,139 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:19:56,141 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:19:56,141 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:19:56,142 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:19:56,143 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:20:21,738 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:20:21,738 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:20:21,738 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:20:21,739 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:20:48,516 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:20:48,516 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:20:48,517 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:20:48,517 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:25:27,766 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:25:27,766 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:25:27,778 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:25:27,778 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:32:42,163 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:32:42,163 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:32:42,164 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:32:42,164 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:33:18,823 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:33:18,823 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:33:18,824 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:33:18,824 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:35:10,860 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:35:10,861 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:35:10,862 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:35:10,862 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:35:25,255 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:35:25,256 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:35:25,257 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:35:25,257 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:36:04,030 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:36:04,030 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:36:04,031 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:36:04,031 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:38:02,817 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:38:02,818 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:38:02,819 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:38:02,819 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:39:55,079 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:39:55,079 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:39:55,080 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:39:55,080 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:40:13,343 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:40:13,343 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:40:13,343 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:40:13,343 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:40:31,348 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:40:31,348 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:40:31,349 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:40:31,349 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:40:37,180 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:40:37,180 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:40:37,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:40:37,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:41:11,081 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:41:11,082 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:41:11,084 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:41:11,085 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:41:21,852 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:41:21,852 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:41:21,855 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:41:21,855 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:46:47,895 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:46:47,895 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:46:47,896 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:46:47,896 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:47:24,305 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:47:24,305 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:47:24,306 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:47:24,306 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:49:22,798 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:49:22,798 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:49:22,799 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:49:22,799 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:49:50,120 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:49:50,120 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:49:50,121 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:49:50,121 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:53:08,776 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:53:08,776 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:53:08,777 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:53:08,777 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:55:45,005 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:55:45,005 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:55:45,006 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:55:45,006 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:55:52,708 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:55:52,708 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:55:52,708 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:55:52,708 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:56:43,700 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:56:43,700 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:56:43,701 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:56:43,701 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:56:47,090 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:56:47,090 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:56:47,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:56:47,091 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:57:29,957 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:29,958 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:57:29,958 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:29,959 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:57:34,756 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:34,756 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:57:34,758 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:34,758 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:57:43,675 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:43,675 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:57:43,676 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:43,676 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:57:52,688 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:52,688 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:57:52,690 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:57:52,690 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-02 14:58:01,393 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:58:01,394 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-02 14:58:01,395 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-02 14:58:01,395 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
