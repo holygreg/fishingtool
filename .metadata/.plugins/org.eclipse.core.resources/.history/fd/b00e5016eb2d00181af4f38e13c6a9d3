@@ -1,0 +1,20 @@
+package view.ifaces;
+
+import java.awt.event.ActionListener;
+
+public interface CreateBaitPanel {
+
+	public void setNameFieldActionListener(ActionListener actionListener);
+
+	public void setBrandFieldActionListener(ActionListener actionListener);
+
+	public void setPriceFieldActionListener(ActionListener actionListener);
+
+	public void setWeightFieldActionListener(ActionListener actionListener);
+
+	public void setShopFieldActionListener(ActionListener actionListener);
+
+	public void setColorBoxActionListener(ActionListener actionListener);
+
+	public void setBaitBoxActionListener(ActionListener actionListener);
+}

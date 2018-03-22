@@ -1,0 +1,14 @@
+package view;
+
+import java.util.List;
+
+import javax.swing.JMenu;
+
+public class MenuContainer {
+
+	private String name;
+
+	private JMenu jMenu;
+
+	private List<MenuItemContainer> menuItemContainers;
+}

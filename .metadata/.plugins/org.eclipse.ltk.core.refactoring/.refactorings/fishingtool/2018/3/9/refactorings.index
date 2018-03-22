@@ -13,3 +13,5 @@
 1519990987577	Rename type 'SpeciesEntity'
 1519995737641	Move compilation unit
 1519999971693	Delete element
+1520006459042	Rename type 'LocationInterface'
+1520006469903	Rename type 'HookInterface'

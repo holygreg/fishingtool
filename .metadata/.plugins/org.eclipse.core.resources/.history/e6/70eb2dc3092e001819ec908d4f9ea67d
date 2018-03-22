@@ -1,0 +1,45 @@
+package view;
+
+import java.awt.Color;
+import java.awt.GridLayout;
+
+import javax.swing.JPanel;
+import javax.swing.border.CompoundBorder;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
+
+public abstract class CreateEntityPanelTemplate extends JPanel {
+
+	private JPanel panel;
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public CreateEntityPanelTemplate() {
+		setBackground(Color.WHITE);
+		setLayout(null);
+
+		panel = new JPanel();
+		panel.setBackground(Color.WHITE);
+		panel.setBorder(
+				new CompoundBorder(
+						new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), "K\u00F6der anlegen",
+								TitledBorder.CENTER, TitledBorder.ABOVE_TOP, null, new Color(51, 51, 51)),
+						new EmptyBorder(20, 20, 20, 20)));
+		panel.setBounds(12, 12, 309, 248);
+		add(panel);
+		panel.setLayout(new GridLayout(8, 2, 1, 4));
+	}
+
+	public JPanel getPanel() {
+		return panel;
+	}
+
+	public void setPanel(JPanel panel) {
+		this.panel = panel;
+	}
+
+}

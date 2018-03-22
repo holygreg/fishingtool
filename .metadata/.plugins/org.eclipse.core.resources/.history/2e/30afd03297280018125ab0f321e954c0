@@ -1,0 +1,5 @@
+package view.ifaces;
+
+public interface CreateBaitPanel {
+
+}

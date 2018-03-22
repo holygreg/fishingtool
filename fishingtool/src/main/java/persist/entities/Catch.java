@@ -10,8 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import persist.util.DayTime;
-import persist.util.Weather;
+import util.DayTime;
+import util.Weather;
 
 @Entity
 public class Catch implements Serializable {

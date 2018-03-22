@@ -1,0 +1,7 @@
+package persist.dao.impl;
+
+import persist.dao.interfaces.SpeciesDaoInterface;
+
+public class SpeciesDaoImpl extends AbstractDaoImpl<Species> implements SpeciesDaoInterface {
+
+}

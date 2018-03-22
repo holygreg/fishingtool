@@ -1,0 +1,11 @@
+package control;
+
+public class CreateBaitController extends PanelController {
+
+	@Override
+	public void setActionListeners() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

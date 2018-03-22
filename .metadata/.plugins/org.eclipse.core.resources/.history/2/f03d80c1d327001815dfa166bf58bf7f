@@ -1,0 +1,19 @@
+package view;
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+
+public class KöderAnlegenPanel extends JPanel {
+
+	/**
+	 * Create the panel.
+	 */
+	public KöderAnlegenPanel() {
+		setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setBounds(175, 136, 70, 15);
+		add(lblNewLabel);
+
+	}
+}

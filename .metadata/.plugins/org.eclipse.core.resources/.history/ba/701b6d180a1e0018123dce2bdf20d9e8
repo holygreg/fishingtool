@@ -1,6 +1,0 @@
-package persist.util;
-
-public enum FeedingType {
-CARNIVAORE("carnivore"),
-HERBIVORE("herbivore")
-}

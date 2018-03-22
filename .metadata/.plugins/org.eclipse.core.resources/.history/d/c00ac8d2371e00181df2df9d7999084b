@@ -1,0 +1,46 @@
+package persist.dao.impl;
+
+import java.util.List;
+
+import persist.dao.interfaces.CatchDaoInterface;
+import persist.entities.Catch;
+
+public class CatchDaoImpl extends AbstractDaoImpl<Catch> implements CatchDaoInterface {
+
+	@Override
+	public void persist(Catch entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Catch entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Catch findById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Catch entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Catch> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

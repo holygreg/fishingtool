@@ -1,0 +1,28 @@
+package view;
+
+import javax.swing.JPanel;
+
+import control.PanelController;
+import view.ifaces.DecoratablePanel;
+
+public abstract class ControlledDecoratorPanel extends ControlledPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	protected DecoratablePanel panelToDecorate;
+
+	private ControlledDecoratorPanel(PanelController panelController, DecoratablePanel panelToDecorate) {
+		super(panelController);
+		this.panelToDecorate = panelToDecorate;
+	}
+
+	@Override
+	protected final void setUpPanelElements() {
+		decoratePanel();
+	}
+
+	protected abstract void decoratePanel();
+
+}

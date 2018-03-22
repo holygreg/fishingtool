@@ -1,0 +1,83 @@
+package view;
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.JComboBox;
+
+public class CreateBaitPanel extends JPanel {
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+
+	/**
+	 * Create the panel.
+	 */
+	public CreateBaitPanel() {
+		setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Produktname");
+		lblNewLabel.setBounds(62, 54, 110, 15);
+		add(lblNewLabel);
+		
+		textField = new JTextField();
+		textField.setBounds(178, 52, 114, 19);
+		add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblNewLabel_1 = new JLabel("Marke");
+		lblNewLabel_1.setBounds(62, 85, 70, 15);
+		add(lblNewLabel_1);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(178, 83, 114, 19);
+		add(textField_1);
+		textField_1.setColumns(10);
+		
+		JLabel lblKderart = new JLabel("Köderart");
+		lblKderart.setBounds(62, 112, 70, 15);
+		add(lblKderart);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(178, 114, 114, 15);
+		add(comboBox);
+		
+		JLabel lblFarbe = new JLabel("Farbe");
+		lblFarbe.setBounds(62, 140, 70, 15);
+		add(lblFarbe);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setBounds(178, 141, 114, 15);
+		add(comboBox_1);
+		
+		JLabel lblPreis = new JLabel("Preis");
+		lblPreis.setBounds(62, 166, 70, 15);
+		add(lblPreis);
+		
+		textField_2 = new JTextField();
+		textField_2.setBounds(178, 164, 114, 19);
+		add(textField_2);
+		textField_2.setColumns(10);
+		
+		JLabel lblMarke = new JLabel("Gewicht");
+		lblMarke.setBounds(62, 193, 70, 15);
+		add(lblMarke);
+		
+		JLabel lblNewLabel_2 = new JLabel("Geschäft");
+		lblNewLabel_2.setBounds(62, 230, 70, 15);
+		add(lblNewLabel_2);
+		
+		textField_3 = new JTextField();
+		textField_3.setBounds(178, 195, 114, 19);
+		add(textField_3);
+		textField_3.setColumns(10);
+		
+		textField_4 = new JTextField();
+		textField_4.setBounds(178, 228, 114, 19);
+		add(textField_4);
+		textField_4.setColumns(10);
+
+	}
+}

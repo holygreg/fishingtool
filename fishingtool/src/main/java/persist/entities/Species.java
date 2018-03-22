@@ -12,7 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 import persist.entities.columntypes.DateRange;
-import persist.util.FeedingType;
+import util.FeedingType;
 
 @Entity
 public class Species implements Serializable{

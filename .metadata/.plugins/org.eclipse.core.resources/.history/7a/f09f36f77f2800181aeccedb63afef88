@@ -1,0 +1,8 @@
+package model;
+
+import javax.swing.JPanel;
+
+public interface PanelController {
+
+	public void setPanel(JPanel panel);
+}

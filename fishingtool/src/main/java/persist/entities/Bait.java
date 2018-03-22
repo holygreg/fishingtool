@@ -11,8 +11,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import persist.util.BaitType;
-import persist.util.Color;
+import util.BaitType;
+import util.Color;
 
 @Entity
 public class Bait implements Serializable {
@@ -38,7 +38,7 @@ public class Bait implements Serializable {
 	private BaitType baitType;
 
 	@Column(name = "color")
-	@Enumerated(EnumType.ORDINAL)
+	@Enumerated(EnumType.STRING)
 	private Color color;
 
 	@Column(name = "price")
@@ -49,8 +49,8 @@ public class Bait implements Serializable {
 
 	@Column(name = "brand")
 	private String brand;
-	
-	@OneToMany(mappedBy="bait")
+
+	@OneToMany(mappedBy = "bait")
 	private Set<Catch> catches;
 
 	public int getId() {
@@ -107,6 +107,14 @@ public class Bait implements Serializable {
 
 	public void setBrand(String brand) {
 		this.brand = brand;
+	}
+
+	public BaitType getBaitType() {
+		return baitType;
+	}
+
+	public void setBaitType(BaitType baitType) {
+		this.baitType = baitType;
 	}
 
 }

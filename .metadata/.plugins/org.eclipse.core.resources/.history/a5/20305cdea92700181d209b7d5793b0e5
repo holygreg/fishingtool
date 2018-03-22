@@ -1,0 +1,45 @@
+package view;
+
+import java.awt.MenuItem;
+
+import javax.swing.JPanel;
+
+public class MenuItemContainer {
+
+	private String name;
+
+	private MenuItem menuItem;
+
+	private JPanel jPanel;
+
+	public MenuItemContainer(String name, MenuItem menuItem, JPanel jPanel) {
+		this.name = name;
+		this.menuItem = menuItem;
+		this.jPanel = jPanel;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public MenuItem getMenuItem() {
+		return menuItem;
+	}
+
+	public void setMenuItem(MenuItem menuItem) {
+		this.menuItem = menuItem;
+	}
+
+	public JPanel getjPanel() {
+		return jPanel;
+	}
+
+	public void setjPanel(JPanel jPanel) {
+		this.jPanel = jPanel;
+	}
+
+}

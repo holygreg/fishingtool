@@ -1,0 +1,11 @@
+package view;
+
+public class ControlledDecoratorPanel extends ControlledPanel {
+
+	@Override
+	protected void initPanel() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

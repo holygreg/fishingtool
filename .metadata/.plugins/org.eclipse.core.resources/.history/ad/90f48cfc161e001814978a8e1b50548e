@@ -1,5 +1,0 @@
-package persist.util;
-
-public enum Color {
-BLACK = 1;
-}

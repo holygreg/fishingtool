@@ -1,0 +1,5 @@
+1521732953647	Rename package 'persist.util'
+1521747769134	Convert local variable 'panel' to field
+1521753654180	Rename local variable 'controlledPanel'
+1521753680066	Rename field 'controlledPanel'
+1521753722471	Delete element

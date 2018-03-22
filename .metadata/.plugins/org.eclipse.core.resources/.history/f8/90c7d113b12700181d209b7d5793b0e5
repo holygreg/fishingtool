@@ -1,0 +1,69 @@
+package view;
+
+import java.awt.EventQueue;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+public class MainApplicationFrame extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private JPanel contentPane;
+	private JMenu mnKder;
+	private JMenuBar menuBar;
+	private Map<String, MenuContainer> menuContainers;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MainApplicationFrame frame = new MainApplicationFrame();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public MainApplicationFrame() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+
+		menuContainers = new LinkedHashMap<>();
+
+		MenuContainer köder = new MenuContainer("köder", new JMenu("Köder"));
+
+		köder.addMenuItemContainer("köder_anlegen",
+				new MenuItemContainer("köder_anlegen", new JMenuItem("Köder anlegen"), new JPanel()));
+		köder.addMenuItemContainer("köder_anlegen",
+				new MenuItemContainer("köder_anlegen", new JMenuItem("Köder anlegen"), new JPanel()));
+
+		menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+
+		menuContainers.forEach((k, v) -> menuBar.add(v.getjMenu()));
+
+		setContentPane(menuContainers.values().iterator().next().getMenuItemContainers().values().iterator().next()
+				.getjPanel());
+		contentPane.setLayout(null);
+	}
+
+}

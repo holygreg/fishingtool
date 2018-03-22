@@ -1,0 +1,46 @@
+package persist.dao.impl;
+
+import java.util.List;
+
+import persist.dao.interfaces.BaitDaoInterface;
+import persist.entities.Bait;
+
+public class BaitDaoImpl extends AbstractDaoImpl<Bait> implements BaitDaoInterface {
+
+	@Override
+	public void persist(Bait entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Bait entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Bait findById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(Bait entity) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Bait> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

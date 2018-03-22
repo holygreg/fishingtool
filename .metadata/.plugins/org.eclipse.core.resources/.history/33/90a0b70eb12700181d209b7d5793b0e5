@@ -1,0 +1,59 @@
+package view;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JMenu;
+
+public class MainApplicationFrame extends JFrame {
+
+	private JPanel contentPane;
+	private JMenu mnKder;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MainApplicationFrame frame = new MainApplicationFrame();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public MainApplicationFrame() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		
+		JMenuBar menuBar = new JMenuBar();
+		setJMenuBar(menuBar);
+		
+		mnKder = new JMenu("Köder");
+		menuBar.add(mnKder);
+		
+		JMenuItem mntmKderAnlegen = new JMenuItem("Köder anlegen");
+		mnKder.add(mntmKderAnlegen);
+		
+		JMenuItem mntmKderAnzeigen = new JMenuItem("Köder anzeigen");
+		mnKder.add(mntmKderAnzeigen);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+	}
+
+}

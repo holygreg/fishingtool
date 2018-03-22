@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<moveEntry
+		id="org.eclipse.wb.swing.components.menu javax.swing.JMenuItem"
+		category="org.eclipse.wb.swing.components"
+		nextEntry="org.eclipse.wb.swing.components javax.swing.JList"/>
+	<moveCategory
+		id="org.eclipse.wb.swing.JGoodies"
+		nextCategory="org.eclipse.wb.swing.JGoodies"/>
+	<addComponent
+		id="custom_1520431848425"
+		name="JMenuItem"
+		visible="true"
+		class="javax.swing.JMenuItem"
+		category="org.eclipse.wb.swing.components.menu"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components.menu javax.swing.JMenuBar"
+		category="org.eclipse.wb.swing.components.menu"
+		nextEntry="org.eclipse.wb.swing.components.menu javax.swing.JRadioButtonMenuItem"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JSlider"
+		category="org.eclipse.wb.swing.components"/>
+</commands>

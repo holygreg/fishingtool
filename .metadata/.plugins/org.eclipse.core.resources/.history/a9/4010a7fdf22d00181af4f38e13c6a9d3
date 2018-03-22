@@ -1,0 +1,112 @@
+package persist.entities;
+
+import java.io.Serializable;
+import java.util.Set;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+
+import util.BaitType;
+import util.Color;
+
+@Entity
+public class Bait implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue
+	@Column(name = "id")
+	private int id;
+
+	@Column(name = "name")
+	private String name;
+
+	@Column(name = "weight")
+	private float weight;
+
+	@Column(name = "bait_type")
+	@Enumerated(EnumType.STRING)
+	private BaitType baitType;
+
+	@Column(name = "color")
+	@Enumerated(EnumType.STRING)
+	private Color color;
+
+	@Column(name = "price")
+	private float price;
+
+	@Column(name = "shop")
+	private String shop;
+
+	@Column(name = "brand")
+	private String brand;
+	
+	@OneToMany(mappedBy="bait")
+	private Set<Catch> catches;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public float getWeight() {
+		return weight;
+	}
+
+	public void setWeight(float weight) {
+		this.weight = weight;
+	}
+
+	public Color getColor() {
+		return color;
+	}
+
+	public void setColor(Color color) {
+		this.color = color;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+	public String getShop() {
+		return shop;
+	}
+
+	public void setShop(String shop) {
+		this.shop = shop;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+}

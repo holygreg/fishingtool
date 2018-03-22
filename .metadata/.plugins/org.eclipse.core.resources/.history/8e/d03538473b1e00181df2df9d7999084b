@@ -1,0 +1,7 @@
+package persist.dao.impl;
+
+import persist.dao.interfaces.LocationDaoInterface;
+
+public class LocationDaoImpl extends AbstractDaoImpl<Location> implements LocationDaoInterface {
+
+}

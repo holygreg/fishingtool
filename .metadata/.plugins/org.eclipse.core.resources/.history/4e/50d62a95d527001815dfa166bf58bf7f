@@ -1,0 +1,19 @@
+package view;
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+
+public class CreateBaitPanel extends JPanel {
+
+	/**
+	 * Create the panel.
+	 */
+	public CreateBaitPanel() {
+		setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setBounds(12, 23, 114, 15);
+		add(lblNewLabel);
+
+	}
+}

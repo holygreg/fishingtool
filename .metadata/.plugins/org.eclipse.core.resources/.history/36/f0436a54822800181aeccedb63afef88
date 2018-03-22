@@ -1,0 +1,14 @@
+package control;
+
+public abstract class PanelController {
+
+	@SuppressWarnings("unused")
+	private ControlledPanel controlledPanel;
+
+	public void setPanel(ControlledPanel controlledPanel) {
+		this.controlledPanel = controlledPanel;
+	}
+	
+	public abstract void setActionListeners();
+	
+}

@@ -1,0 +1,23 @@
+package persist.dao.impl;
+
+import java.util.List;
+
+import persist.dao.interfaces.HookDaoInterface;
+import persist.entities.Hook;
+
+public class HookDaoImpl extends AbstractDaoImpl<Hook> implements HookDaoInterface {
+
+	@Override
+	public Hook findById(int id) {
+		Hook hook = (Hook) getCurrentSession().get(Hook.class, id);
+		return hook;
+	}
+
+	@Override
+	public List<Hook> findAll() {
+		@SuppressWarnings("unchecked")
+		List<Hook> hooks = (List<Hook>) getCurrentSession().createQuery("from Hook").list();
+		return hooks;
+	}
+
+}

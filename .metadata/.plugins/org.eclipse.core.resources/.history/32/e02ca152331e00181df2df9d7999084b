@@ -1,0 +1,7 @@
+package persist.dao.impl;
+
+import persist.dao.interfaces.DaoInterface;
+
+public class AbstractDaoImpl implements DaoInterface<T> {
+
+}

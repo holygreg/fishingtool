@@ -1,0 +1,36 @@
+package view;
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class CreateBaitPanel extends JPanel {
+	private JTextField textField;
+	private JTextField textField_1;
+
+	/**
+	 * Create the panel.
+	 */
+	public CreateBaitPanel() {
+		setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Produktname");
+		lblNewLabel.setBounds(62, 54, 110, 15);
+		add(lblNewLabel);
+		
+		textField = new JTextField();
+		textField.setBounds(178, 52, 114, 19);
+		add(textField);
+		textField.setColumns(10);
+		
+		JLabel lblNewLabel_1 = new JLabel("Gewicht");
+		lblNewLabel_1.setBounds(62, 85, 70, 15);
+		add(lblNewLabel_1);
+		
+		textField_1 = new JTextField();
+		textField_1.setBounds(178, 83, 114, 19);
+		add(textField_1);
+		textField_1.setColumns(10);
+
+	}
+}

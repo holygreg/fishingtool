@@ -1,0 +1,11 @@
+package model;
+
+import javax.swing.JPanel;
+
+public abstract class PanelController {
+
+	public abstract void setPanel(JPanel panel);
+	
+	protected abstract void setActionListeners();
+	
+}

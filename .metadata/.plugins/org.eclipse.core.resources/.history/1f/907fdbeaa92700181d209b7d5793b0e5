@@ -1,0 +1,23 @@
+package view;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import javax.swing.JMenu;
+
+public class MenuContainer {
+
+	private String name;
+
+	private JMenu jMenu;
+
+	private List<MenuItemContainer> menuItemContainers;
+
+	public MenuContainer(String name, JMenu jMenu) {
+		this.name = name;
+		this.jMenu = jMenu;
+		menuItemContainers = new LinkedList<>();
+	}
+	
+	
+}

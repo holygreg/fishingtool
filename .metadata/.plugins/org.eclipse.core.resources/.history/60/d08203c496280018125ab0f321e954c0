@@ -1,0 +1,93 @@
+package view;
+
+import java.awt.Color;
+
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.Border;
+import javax.swing.border.CompoundBorder;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import org.eclipse.wb.swing.FocusTraversalOnArray;
+import java.awt.Component;
+
+public class CreateBaitPanel extends JPanel  {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private JTextField nameField;
+	private JTextField brand_field;
+	private JTextField price_field;
+	private JTextField weightField;
+	private JTextField shopField;
+
+	/**
+	 * Create the panel.
+	 */
+	public CreateBaitPanel() {
+		setBackground(Color.WHITE);
+		setLayout(null);
+
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.WHITE);
+		panel.setBorder(new CompoundBorder(new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), "K\u00F6der anlegen", TitledBorder.CENTER, TitledBorder.ABOVE_TOP, null, new Color(51, 51, 51)), new EmptyBorder(20, 20, 20, 20)));
+		panel.setBounds(12, 12, 309, 248);
+		add(panel);
+		panel.setLayout(new GridLayout(7, 2, 1, 4));
+		
+		JLabel name = new JLabel("Produktname");
+		panel.add(name);
+		
+		nameField = new JTextField();
+		panel.add(nameField);
+		nameField.setColumns(10);
+		
+		JLabel brand = new JLabel("Marke");
+		panel.add(brand);
+		
+		brand_field = new JTextField();
+		panel.add(brand_field);
+		brand_field.setColumns(10);
+		
+		JLabel price = new JLabel("Preis");
+		panel.add(price);
+		
+		price_field = new JTextField();
+		panel.add(price_field);
+		price_field.setColumns(10);
+		
+		JLabel bait_type = new JLabel("Ködertyp");
+		panel.add(bait_type);
+		
+		JComboBox baitBox = new JComboBox();
+		panel.add(baitBox);
+		
+		JLabel color = new JLabel("Farbe");
+		panel.add(color);
+		
+		JComboBox colorBox = new JComboBox();
+		panel.add(colorBox);
+		
+		JLabel weight = new JLabel("Gewicht");
+		panel.add(weight);
+		
+		weightField = new JTextField();
+		panel.add(weightField);
+		weightField.setColumns(10);
+		
+		JLabel shop = new JLabel("Geschäft");
+		panel.add(shop);
+		
+		shopField = new JTextField();
+		panel.add(shopField);
+		shopField.setColumns(10);
+
+	}
+}
