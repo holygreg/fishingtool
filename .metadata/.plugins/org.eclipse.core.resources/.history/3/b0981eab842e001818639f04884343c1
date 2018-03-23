@@ -1,0 +1,32 @@
+package view;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+import view.ifaces.DecoratablePanel;
+
+public class CreateHookPanelImpl extends ControlledPanel implements DecoratablePanel {
+
+	private JLabel hook_size;
+	private JLabel barb;
+	private JTextField hook_sizeField;
+	private JTextField barb_field;
+	private JButton createButton;
+	
+	
+	@Override
+	protected void initPanel() {
+		hook_size = new JLabel("Hakengröße");
+		contentPanel.add(hook_size);
+		
+		hook_sizeField = new JTextField();
+		contentPanel.add(hook_sizeField);
+		hook_sizeField.setColumns(10);
+		
+		barb = new JLabel("Widerhaken");
+		contentPanel.add(barb);
+		
+	}
+
+}

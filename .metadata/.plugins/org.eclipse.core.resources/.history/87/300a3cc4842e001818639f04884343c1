@@ -1,0 +1,44 @@
+package view;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+
+import control.PanelController;
+import view.ifaces.DecoratablePanel;
+
+public class CreateHookPanelImpl extends ControlledPanel implements DecoratablePanel {
+
+	public CreateHookPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	private JLabel hook_size;
+	private JLabel barb;
+	private JTextField hook_sizeField;
+	private JComboBox<String> barb_box;
+	private JButton createButton;
+
+	@Override
+	protected void initPanel() {
+		hook_size = new JLabel("Hakengröße");
+		contentPanel.add(hook_size);
+
+		hook_sizeField = new JTextField();
+		contentPanel.add(hook_sizeField);
+		hook_sizeField.setColumns(10);
+
+		barb = new JLabel("Widerhaken");
+		contentPanel.add(barb);
+
+		barb_box = new JComboBox<String>(new String[] { "Ja", "Nein" });
+		contentPanel.add(barb_box);
+
+		createButton = new JButton("Anlegen");
+		contentPanel.add(createButton);
+	}
+
+}

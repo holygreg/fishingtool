@@ -10,6 +10,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
 import control.CreateBaitController;
+import control.CreateHookController;
 
 public class MainApplicationFrame extends JFrame {
 
@@ -56,7 +57,6 @@ public class MainApplicationFrame extends JFrame {
 
 		setContentPane(menuContainers.values().iterator().next().getMenuItemContainers().values().iterator().next()
 				.getPanel());
-
 		this.setVisible(true);
 	}
 
@@ -83,13 +83,18 @@ public class MainApplicationFrame extends JFrame {
 
 			MenuContainer köder = new MenuContainer("köder", new JMenu("Köder"));
 
-			köder.addMenuItemContainer("köder_anlegen", new MenuItemContainer("anlegen", new JMenuItem("Köder anlegen"),
-					new CreateEntityPanelTemplate(new CreateBaitPanelImpl(new CreateBaitController()), 8, 2)));
-			// köder.addMenuItemContainer("köder_anzeigen",
-			// new MenuItemContainer("anzeigen", new JMenuItem("Köder anzeigen"), new
-			// JPanel()));
+			köder.addMenuItemContainer("köder_anlegen",
+					new MenuItemContainer("anlegen", new JMenuItem("Köder anlegen"), new CreateEntityPanelTemplate(
+							new CreateBaitPanelImpl(new CreateBaitController()), "Köder anlegen", 8, 2)));
+
+			MenuContainer haken = new MenuContainer("haken", new JMenu("Haken"));
+
+			haken.addMenuItemContainer("haken_anlegen",
+					new MenuItemContainer("anlegen", new JMenuItem("Haken anlegen"), new CreateEntityPanelTemplate(
+							new CreateHookPanelImpl(new CreateHookController()), "Haken anlegen", 8, 2)));
 
 			menuContainers.put("köder", köder);
+			menuContainers.put("haken", haken);
 
 			return this;
 		}

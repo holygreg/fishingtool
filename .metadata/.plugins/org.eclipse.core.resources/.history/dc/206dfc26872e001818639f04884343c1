@@ -1,0 +1,21 @@
+package control;
+
+import view.ifaces.CreateHookPanel;
+
+public class CreateHookController extends PanelController {
+
+	private int hookSize;
+	
+	private boolean barb;
+	
+	@Override
+	public void setActionListeners() {
+		CreateHookPanel createHookPanel = (CreateHookPanel) controlledPanel;
+		
+		createHookPanel.setCreateButtonActionListener(e->{
+			
+		});
+
+	}
+
+}

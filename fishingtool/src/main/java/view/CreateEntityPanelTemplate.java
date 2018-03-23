@@ -24,7 +24,8 @@ public class CreateEntityPanelTemplate extends JPanel {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public CreateEntityPanelTemplate(DecoratablePanel decoratablePanel, int gridLayoutRows, int gridLayoutCols) {
+	public CreateEntityPanelTemplate(DecoratablePanel decoratablePanel, String borderName, int gridLayoutRows,
+			int gridLayoutCols) {
 		this.gridLayoutRows = gridLayoutRows;
 		this.gridLayoutCols = gridLayoutCols;
 		this.decoratablePanel = decoratablePanel;
@@ -34,10 +35,11 @@ public class CreateEntityPanelTemplate extends JPanel {
 
 		this.decoratablePanel.getContentPanel().setBackground(Color.WHITE);
 		this.decoratablePanel.getContentPanel()
-				.setBorder(new CompoundBorder(
-						new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), "K\u00F6der anlegen",
-								TitledBorder.CENTER, TitledBorder.ABOVE_TOP, null, new Color(51, 51, 51)),
-						new EmptyBorder(20, 20, 20, 20)));
+				.setBorder(
+						new CompoundBorder(
+								new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), borderName, TitledBorder.CENTER,
+										TitledBorder.ABOVE_TOP, null, new Color(51, 51, 51)),
+								new EmptyBorder(20, 20, 20, 20)));
 		this.decoratablePanel.getContentPanel().setBounds(12, 12, 309, 248);
 		add(this.decoratablePanel.getContentPanel());
 		this.decoratablePanel.getContentPanel()

@@ -1,0 +1,13 @@
+package view;
+
+import view.ifaces.DecoratablePanel;
+
+public class CreateHookPanelImpl extends ControlledPanel implements DecoratablePanel {
+
+	@Override
+	protected void initPanel() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

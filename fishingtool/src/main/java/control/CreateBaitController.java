@@ -40,6 +40,8 @@ public class CreateBaitController extends PanelController {
 			color = (Color) createBaitPanel.getColorBox().getSelectedItem();
 			shop = createBaitPanel.getShopField().getText();
 			baitType = (BaitType) createBaitPanel.getBaitBox().getSelectedItem();
+			
+			System.out.println(createBaitPanel.getNameField().getSize());
 
 			if (name.isEmpty())
 				showMessage("Es muss ein Produktname angegeben werden!");

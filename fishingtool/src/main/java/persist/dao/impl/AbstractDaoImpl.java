@@ -10,32 +10,63 @@ import org.hibernate.cfg.Configuration;
 
 import persist.dao.interfaces.DaoInterface;
 
+/**
+ * Abstract DAO-class implementing basic functionality shared by all DAOs. It
+ * implements the DaoInterface.
+ * 
+ * @author gregor
+ *
+ * @param <T>
+ *            The type of the respective Entity
+ */
 public abstract class AbstractDaoImpl<T> implements DaoInterface<T> {
 
 	private Session currentSession;
 
 	private Transaction currentTransaction;
 
+	/**
+	 * Opens a hibernate-session and returns its instance.
+	 * 
+	 * @return the opened hibernate-session
+	 */
 	public Session openCurrentSession() {
 		currentSession = getSessionFactory().openSession();
 		return currentSession;
 	}
 
+	/**
+	 * Opens a hibernate-session, begins a transaction and returns the opened
+	 * session.
+	 * 
+	 * @return the opened hibernate-session
+	 */
 	public Session openCurrentSessionwithTransaction() {
 		currentSession = getSessionFactory().openSession();
 		currentTransaction = currentSession.beginTransaction();
 		return currentSession;
 	}
 
+	/**
+	 * Closes the current session.
+	 */
 	public void closeCurrentSession() {
 		currentSession.close();
 	}
 
+	/**
+	 * Closes the current transaction-session.
+	 */
 	public void closeCurrentSessionwithTransaction() {
 		currentTransaction.commit();
 		currentSession.close();
 	}
 
+	/**
+	 * Creates a SessionFactory using the specified configuration.
+	 * 
+	 * @return the created SessionFactory
+	 */
 	private static SessionFactory getSessionFactory() {
 		return new Configuration().configure().buildSessionFactory();
 	}

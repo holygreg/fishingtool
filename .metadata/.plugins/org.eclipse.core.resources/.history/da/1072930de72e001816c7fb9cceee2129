@@ -1,0 +1,40 @@
+package control;
+
+import javax.swing.JOptionPane;
+
+import view.ControlledPanel;
+
+/**
+ * Abstract superclass that must be extended by all controllers for controlled
+ * panels. Controlled panels will call the method
+ * {@link #setPanel(ControlledPanel controlledPanel)} with themselves as an
+ * argument in order to connect them to their corresponding controller.
+ * 
+ * @author gregor
+ *
+ */
+public abstract class PanelController {
+
+	/**
+	 * Controlled panel that will be controlled by the PanelController
+	 */
+	protected ControlledPanel controlledPanel;
+
+	/**
+	 * Sets the ControlledPanel to be controlled by the controller. This method will
+	 * be called by the corresponding ControlledPanel that takes a PanelController
+	 * as an constructor-argument
+	 * 
+	 * @param controlledPanel
+	 */
+	public void setPanel(ControlledPanel controlledPanel) {
+		this.controlledPanel = controlledPanel;
+	}
+
+	public abstract void setActionListeners();
+
+	protected void showMessage(String message) {
+		JOptionPane.showMessageDialog(controlledPanel.getParent(), message);
+	}
+
+}

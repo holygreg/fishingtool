@@ -3,3 +3,6 @@
 1521753654180	Rename local variable 'controlledPanel'
 1521753680066	Rename field 'controlledPanel'
 1521753722471	Delete element
+1521800321881	Rename field 'barb_field'
+1521800457710	Rename field 'barb_radio_button'
+1521800684457	Rename field 'barb_button_group'
