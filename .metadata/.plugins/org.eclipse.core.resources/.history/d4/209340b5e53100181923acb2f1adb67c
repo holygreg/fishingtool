@@ -1,0 +1,98 @@
+package view;
+
+import java.awt.event.ActionListener;
+
+import org.jdesktop.swingx.JXDatePicker;
+
+import control.PanelController;
+import util.DayTime;
+import util.Weather;
+import view.elements.CustomButton;
+import view.elements.CustomComboBox;
+import view.elements.CustomTextField;
+import view.ifaces.CreateCatchPanel;
+
+public class CreateCatchPanelImpl extends ControlledPanel implements CreateCatchPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public CreateCatchPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public CustomComboBox<String> getSpeciesBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JXDatePicker getDatePicker() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomComboBox<DayTime> getDayTimeBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomComboBox<Weather> getWeatherBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomTextField getTemperatureField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomComboBox<String> getBaitBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomComboBox<String> getHookBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomTextField getWeightField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomTextField getSizeField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CustomButton getCreateButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected void initPanel() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

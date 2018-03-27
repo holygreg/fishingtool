@@ -1,0 +1,26 @@
+package control;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import persist.dao.impl.SpeciesDaoImpl;
+import persist.dao.interfaces.SpeciesDaoInterface;
+import view.ifaces.CreateCatchPanel;
+
+public class CreateCatchController extends PanelController {
+
+	private final SpeciesDaoInterface speciesDao = new SpeciesDaoImpl();
+
+	@Override
+	public void setActionListeners() {
+		CreateCatchPanel catchPanel = (CreateCatchPanel) controlledPanel;
+
+		catchPanel.setRefreshSpeciesBoxListener(e -> {
+			List<String> speciesNames = speciesDao.findAll().stream().map(x -> x.getName())
+					.collect(Collectors.toList());
+			catchPanel.getSpeciesBox().removeAllItems();
+			speciesNames.forEach(s -> catchPanel.getSpeciesBox().addItem(s));
+		});
+	}
+
+}

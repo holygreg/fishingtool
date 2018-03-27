@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Fri Mar 23 12:02:46 CET 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-5286-751d-0000037f5d28 
+Tue Mar 27 23:24:17 CEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-6958-e7c3-00000628e6a0 
 on database directory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/fishingdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
 Loaded from file:/home/gregor/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
 java.vendor=Oracle Corporation

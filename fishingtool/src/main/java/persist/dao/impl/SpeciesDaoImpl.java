@@ -15,8 +15,10 @@ public class SpeciesDaoImpl extends AbstractDaoImpl<Species> implements SpeciesD
 
 	@Override
 	public List<Species> findAll() {
+		openCurrentSessionwithTransaction();
 		@SuppressWarnings("unchecked")
 		List<Species> species = (List<Species>) getCurrentSession().createQuery("from Species").list();
+		closeCurrentSessionwithTransaction();
 		return species;
 	}
 

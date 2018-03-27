@@ -1,0 +1,40 @@
+package control;
+
+import java.io.File;
+import java.util.Date;
+
+import javax.swing.JFileChooser;
+
+import util.FeedingType;
+import view.ifaces.CreateSpeciesPanel;
+
+public class CreateSpeciesController extends PanelController {
+
+	private String name;
+
+	private FeedingType feedingType;
+
+	private float minimumLegth;
+
+	private Date startOfClosedSession;
+
+	private Date endOfClosedSession;
+
+	private File imageFile;
+
+	@Override
+	public void setActionListeners() {
+		CreateSpeciesPanel createSpeciesPanel = (CreateSpeciesPanel) controlledPanel;
+
+		createSpeciesPanel.setChooseImageButtonActionListener(e -> {
+			JFileChooser chooser = new JFileChooser();
+
+			int choosen = chooser.showOpenDialog(null);
+
+			if (choosen == JFileChooser.APPROVE_OPTION)
+				imageFile = chooser.getSelectedFile();
+		});
+
+	}
+
+}

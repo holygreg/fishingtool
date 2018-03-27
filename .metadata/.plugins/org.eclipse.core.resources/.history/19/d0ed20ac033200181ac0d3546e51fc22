@@ -1,0 +1,10 @@
+package control;
+
+public class CreateCatchController extends PanelController {
+
+	@Override
+	public void setActionListeners() {
+		// TODO Auto-generated method stub
+	}
+
+}

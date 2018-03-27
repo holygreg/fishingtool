@@ -1,0 +1,13 @@
+package control;
+
+import view.ifaces.CreateSpeciesPanel;
+
+public class CreateSpeciesController extends PanelController {
+
+	@Override
+	public void setActionListeners() {
+		CreateSpeciesPanel createSpeciesPanel = (CreateSpeciesPanel) controlledPanel;
+
+	}
+
+}

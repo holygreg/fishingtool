@@ -3,6 +3,7 @@ package control;
 import persist.dao.impl.HookDaoImpl;
 import persist.dao.interfaces.HookDaoInterface;
 import persist.entities.Hook;
+import view.CreateHookPanelImpl;
 import view.ifaces.CreateHookPanel;
 
 public class CreateHookController extends PanelController {
@@ -11,13 +12,14 @@ public class CreateHookController extends PanelController {
 
 	private String barb;
 
-	private HookDaoInterface hookDao = new HookDaoImpl();
+	private final HookDaoInterface hookDao = new HookDaoImpl();
 
 	@Override
 	public void setActionListeners() {
-		CreateHookPanel createHookPanel = (CreateHookPanel) controlledPanel;
+		CreateHookPanelImpl createHookPanel = (CreateHookPanelImpl) controlledPanel;
 
 		createHookPanel.setCreateButtonActionListener(e -> {
+
 			hookSize = createHookPanel.getHook_sizeField().getText();
 			barb = (String) createHookPanel.getBarb_box().getSelectedItem();
 
@@ -25,10 +27,19 @@ public class CreateHookController extends PanelController {
 				showMessage("Es muss eine Hakengröße angegeben werden!");
 			else {
 				Hook hook = new Hook();
-				hook.setHookSize(Integer.valueOf(hookSize));
+				try {
+					hook.setHookSize(Integer.valueOf(hookSize));
+				} catch (NumberFormatException exception) {
+					showMessage("Die Hakengröße muss als Ganzzahl angegeben werden!");
+					return;
+				}
 				hook.setBarb(barb.equals("Ja") ? true : false);
 
 				hookDao.persist(hook);
+
+				createHookPanel.getHook_sizeField().setText("");
+				createHookPanel.validate();
+				createHookPanel.repaint();
 			}
 
 		});

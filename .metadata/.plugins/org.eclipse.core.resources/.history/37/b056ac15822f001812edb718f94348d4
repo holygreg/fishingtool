@@ -1,0 +1,141 @@
+package view;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+
+import config.Config;
+import control.PanelController;
+import util.BaitType;
+import view.elements.CustomTextField;
+import view.ifaces.CreateBaitPanel;
+
+public class CreateBaitPanelImpl extends ControlledPanel implements CreateBaitPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private CustomTextField nameField;
+	private CustomTextField brand_field;
+	private CustomTextField price_field;
+	private CustomTextField weightField;
+	private CustomTextField shopField;
+	private JLabel shop;
+	private JLabel weight;
+	private JComboBox<util.Color> colorBox;
+	private JLabel color;
+	private JComboBox<BaitType> baitBox;
+	private JLabel bait_type;
+	private JLabel price;
+	private JLabel brand;
+	private JLabel name;
+	private JButton createButton;
+
+	/**
+	 * Create the panel.
+	 */
+	public CreateBaitPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		createButton.addActionListener(actionListener);
+	}
+
+	public CustomTextField getNameField() {
+		return nameField;
+	}
+
+	public CustomTextField getBrand_field() {
+		return brand_field;
+	}
+
+	public CustomTextField getPrice_field() {
+		return price_field;
+	}
+
+	public CustomTextField getWeightField() {
+		return weightField;
+	}
+
+	public CustomTextField getShopField() {
+		return shopField;
+	}
+
+	public JComboBox<util.Color> getColorBox() {
+		return colorBox;
+	}
+
+	public JComboBox<BaitType> getBaitBox() {
+		return baitBox;
+	}
+
+	public JButton getCreateButton() {
+		return createButton;
+	}
+
+	@Override
+	protected void initPanel() {
+		name = new JLabel("Produktname");
+		name.setFont(name.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(name);
+
+		nameField = new CustomTextField();
+		contentPanel.add(nameField);
+		nameField.setColumns(10);
+
+		brand = new JLabel("Marke");
+		brand.setFont(brand.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(brand);
+
+		brand_field = new CustomTextField();
+		contentPanel.add(brand_field);
+		brand_field.setColumns(10);
+
+		price = new JLabel("Preis");
+		price.setFont(price.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(price);
+
+		price_field = new CustomTextField();
+		contentPanel.add(price_field);
+		price_field.setColumns(10);
+
+		bait_type = new JLabel("Ködertyp");
+		bait_type.setFont(bait_type.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(bait_type);
+
+		baitBox = new JComboBox<BaitType>(BaitType.values());
+		contentPanel.add(baitBox);
+
+		color = new JLabel("Farbe");
+		color.setFont(color.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(color);
+
+		colorBox = new JComboBox<util.Color>(util.Color.values());
+		contentPanel.add(colorBox);
+
+		weight = new JLabel("Gewicht");
+		weight.setFont(weight.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(weight);
+
+		weightField = new CustomTextField();
+		contentPanel.add(weightField);
+		weightField.setColumns(10);
+
+		shop = new JLabel("Geschäft");
+		shop.setFont(shop.getFont().deriveFont(Config.jLabelFontSize));
+		contentPanel.add(shop);
+
+		shopField = new CustomTextField();
+		contentPanel.add(shopField);
+		shopField.setColumns(10);
+
+		createButton = new JButton("Anlegen");
+		contentPanel.add(createButton);
+	}
+
+}

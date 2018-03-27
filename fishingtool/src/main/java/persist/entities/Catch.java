@@ -5,6 +5,8 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -34,9 +36,11 @@ public class Catch implements Serializable {
 	private Date date;
 
 	@Column(name = "day_time")
+	@Enumerated(EnumType.STRING)
 	private DayTime dayTime;
 
 	@Column(name = "weather")
+	@Enumerated(EnumType.STRING)
 	private Weather weather;
 
 	@Column(name = "temperature")

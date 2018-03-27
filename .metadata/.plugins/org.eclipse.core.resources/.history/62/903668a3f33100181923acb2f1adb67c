@@ -1,0 +1,108 @@
+package view;
+
+import java.awt.event.ActionListener;
+
+import org.jdesktop.swingx.JXDatePicker;
+
+import control.PanelController;
+import util.DayTime;
+import util.Weather;
+import view.elements.CustomButton;
+import view.elements.CustomComboBox;
+import view.elements.CustomLabel;
+import view.elements.CustomTextField;
+import view.ifaces.CreateCatchPanel;
+
+public class CreateCatchPanelImpl extends ControlledPanel implements CreateCatchPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private CustomLabel species;
+	private CustomLabel catchDate;
+	private CustomLabel dayTime;
+	private CustomLabel weather;
+	private CustomLabel temperature;
+	private CustomLabel bait;
+	private CustomLabel hook;
+	private CustomLabel weight;
+	private CustomLabel size;
+	private CustomComboBox<String> speciesBox;
+	private JXDatePicker catchDatePicker;
+	private CustomComboBox<DayTime> dayTimeBox;
+	private CustomComboBox<Weather> weatherBox;
+	private CustomTextField temperatureField;
+	private CustomComboBox<String> baitBox;
+	private CustomComboBox<String> hookBox;
+	private CustomTextField weightField;
+	private CustomTextField sizeField;
+	private CustomButton createButton;
+
+	public CreateCatchPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		createButton.addActionListener(actionListener);
+	}
+
+	@Override
+	public CustomComboBox<String> getSpeciesBox() {
+		return speciesBox;
+	}
+
+	@Override
+	public JXDatePicker getDatePicker() {
+		return catchDatePicker;
+	}
+
+	@Override
+	public CustomComboBox<DayTime> getDayTimeBox() {
+		return dayTimeBox;
+	}
+
+	@Override
+	public CustomComboBox<Weather> getWeatherBox() {
+		return weatherBox;
+	}
+
+	@Override
+	public CustomTextField getTemperatureField() {
+		return temperatureField;
+	}
+
+	@Override
+	public CustomComboBox<String> getBaitBox() {
+		return baitBox;
+	}
+
+	@Override
+	public CustomComboBox<String> getHookBox() {
+		return hookBox;
+	}
+
+	@Override
+	public CustomTextField getWeightField() {
+		return weightField;
+	}
+
+	@Override
+	public CustomTextField getSizeField() {
+		return sizeField;
+	}
+
+	@Override
+	public CustomButton getCreateButton() {
+		return createButton;
+	}
+
+	@Override
+	protected void initPanel() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

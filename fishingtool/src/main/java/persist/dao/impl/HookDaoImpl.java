@@ -15,8 +15,10 @@ public class HookDaoImpl extends AbstractDaoImpl<Hook> implements HookDaoInterfa
 
 	@Override
 	public List<Hook> findAll() {
+		openCurrentSessionwithTransaction();
 		@SuppressWarnings("unchecked")
 		List<Hook> hooks = (List<Hook>) getCurrentSession().createQuery("from Hook").list();
+		closeCurrentSessionwithTransaction();
 		return hooks;
 	}
 

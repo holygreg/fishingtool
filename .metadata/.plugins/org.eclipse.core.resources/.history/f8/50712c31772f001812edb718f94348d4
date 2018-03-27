@@ -1,0 +1,94 @@
+package view;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+import com.qt.datapicker.DatePicker;
+
+import control.PanelController;
+import util.FeedingType;
+import view.ifaces.CreateSpeciesPanel;
+
+public class CreateSpeciesPanelImpl extends ControlledPanel implements CreateSpeciesPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private JLabel name;
+	private JLabel feedingType;
+	private JLabel minimumLenght;
+	private JLabel startClosedSession;
+	private JLabel endClosedSession;
+	private JLabel image;
+	private JTextField name_field;
+	private JComboBox<FeedingType> feedingTypeBox;
+	private JTextField minimumLengthField;
+	private DatePicker startClosedSessionPicker;
+	private DatePicker endClosesSessionPicker;
+	private JButton chooseImageButton;
+
+	public CreateSpeciesPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	protected void initPanel() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public JTextField getNameField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getChooseImageButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DatePicker getStartClosedSessionPicker() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DatePicker getEndClosedSessionPicker() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JTextField getMinimumLengthField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JComboBox<FeedingType> getFeedingTypeBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setChooseImageButtonActionListener(ActionListener actionListener) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

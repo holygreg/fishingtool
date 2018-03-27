@@ -1,0 +1,19 @@
+package view.ifaces;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+import com.qt.datapicker.DatePicker;
+
+public interface CreateSpeciesPanel {
+
+	public void setCreateButtonActionListener(ActionListener actionListener);
+
+	public JTextField getNameField();
+
+	public JButton getChooseImageButton();
+
+	public DatePicker getStartClosedSessionPicker();
+}

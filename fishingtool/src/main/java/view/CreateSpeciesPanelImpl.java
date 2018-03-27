@@ -1,0 +1,129 @@
+package view;
+
+import java.awt.event.ActionListener;
+
+import org.jdesktop.swingx.JXDatePicker;
+
+import control.PanelController;
+import util.FeedingType;
+import view.elements.CustomButton;
+import view.elements.CustomComboBox;
+import view.elements.CustomLabel;
+import view.elements.CustomTextField;
+import view.ifaces.CreateSpeciesPanel;
+
+public class CreateSpeciesPanelImpl extends ControlledPanel implements CreateSpeciesPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private CustomLabel name;
+	private CustomLabel feedingType;
+	private CustomLabel minimumLenght;
+	private CustomLabel startClosedSession;
+	private CustomLabel endClosedSession;
+	private CustomLabel image;
+	private CustomTextField name_field;
+	private CustomComboBox<FeedingType> feedingTypeBox;
+	private CustomTextField minimumLengthField;
+	private JXDatePicker startClosedSessionPicker;
+	private JXDatePicker endClosesSessionPicker;
+	private CustomButton chooseImageButton;
+	private CustomButton createButton;
+
+	public CreateSpeciesPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	protected void initPanel() {
+		name = new CustomLabel("Spezies");
+		contentPanel.add(name);
+
+		name_field = new CustomTextField();
+		contentPanel.add(name_field);
+
+		feedingType = new CustomLabel("Nahrung");
+		contentPanel.add(feedingType);
+
+		feedingTypeBox = new CustomComboBox<>(FeedingType.values());
+		contentPanel.add(feedingTypeBox);
+
+		minimumLenght = new CustomLabel("Mindestmaß");
+		contentPanel.add(minimumLenght);
+
+		minimumLengthField = new CustomTextField();
+		contentPanel.add(minimumLengthField);
+
+		startClosedSession = new CustomLabel("Schonzeit Start");
+		contentPanel.add(startClosedSession);
+
+		startClosedSessionPicker = new JXDatePicker();
+		contentPanel.add(startClosedSessionPicker);
+
+		endClosedSession = new CustomLabel("Schonzeit Ende");
+		contentPanel.add(endClosedSession);
+
+		endClosesSessionPicker = new JXDatePicker();
+		contentPanel.add(endClosesSessionPicker);
+
+		image = new CustomLabel("Bild");
+		contentPanel.add(image);
+
+		chooseImageButton = new CustomButton("Bild auswählen");
+		contentPanel.add(chooseImageButton);
+
+		CustomLabel fill1 = new CustomLabel();
+		contentPanel.add(fill1);
+
+		CustomLabel fill2 = new CustomLabel();
+		contentPanel.add(fill2);
+
+		createButton = new CustomButton("Anlegen");
+		contentPanel.add(createButton);
+
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		createButton.addActionListener(actionListener);
+	}
+
+	@Override
+	public CustomTextField getNameField() {
+		return name_field;
+	}
+
+	@Override
+	public CustomButton getChooseImageButton() {
+		return chooseImageButton;
+	}
+
+	@Override
+	public JXDatePicker getStartClosedSessionPicker() {
+		return startClosedSessionPicker;
+	}
+
+	@Override
+	public JXDatePicker getEndClosedSessionPicker() {
+		return endClosesSessionPicker;
+	}
+
+	@Override
+	public CustomTextField getMinimumLengthField() {
+		return minimumLengthField;
+	}
+
+	@Override
+	public CustomComboBox<FeedingType> getFeedingTypeBox() {
+		return feedingTypeBox;
+	}
+
+	@Override
+	public void setChooseImageButtonActionListener(ActionListener actionListener) {
+		chooseImageButton.addActionListener(actionListener);
+	}
+
+}

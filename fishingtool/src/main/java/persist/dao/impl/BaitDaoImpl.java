@@ -16,8 +16,10 @@ public class BaitDaoImpl extends AbstractDaoImpl<Bait> implements BaitDaoInterfa
 
 	@Override
 	public List<Bait> findAll() {
+		openCurrentSessionwithTransaction();
 		@SuppressWarnings("unchecked")
 		List<Bait> baits = (List<Bait>) getCurrentSession().createQuery("from Bait").list();
+		closeCurrentSessionwithTransaction();
 		return baits;
 
 	}

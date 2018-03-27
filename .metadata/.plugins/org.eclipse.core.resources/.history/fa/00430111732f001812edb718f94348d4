@@ -1,0 +1,86 @@
+package control;
+
+import javax.swing.JOptionPane;
+
+import persist.dao.impl.BaitDaoImpl;
+import persist.dao.interfaces.BaitDaoInterface;
+import persist.entities.Bait;
+import util.BaitType;
+import util.Color;
+import view.CreateBaitPanelImpl;
+
+public class CreateBaitController extends PanelController {
+
+	private String name = null;
+
+	private String brand = null;
+
+	private String price = null;
+
+	private String weight = null;
+
+	private Color color = null;
+
+	private String shop = null;
+
+	private BaitType baitType = null;
+
+	private final BaitDaoInterface baitDao = new BaitDaoImpl();
+
+	@Override
+	public void setActionListeners() {
+
+		CreateBaitPanelImpl createBaitPanel = (CreateBaitPanelImpl) controlledPanel;
+
+		createBaitPanel.setCreateButtonActionListener(e -> {
+			name = createBaitPanel.getNameField().getText();
+			brand = createBaitPanel.getBrand_field().getText();
+			price = createBaitPanel.getPrice_field().getText();
+			weight = createBaitPanel.getWeightField().getText();
+			color = (Color) createBaitPanel.getColorBox().getSelectedItem();
+			shop = createBaitPanel.getShopField().getText();
+			baitType = (BaitType) createBaitPanel.getBaitBox().getSelectedItem();
+			
+			System.out.println(createBaitPanel.getNameField().getSize());
+
+			if (name.isEmpty())
+				showMessage("Es muss ein Produktname angegeben werden!");
+			else if (brand.isEmpty())
+				showMessage("Es muss ein Markenname angegeben werden!");
+			else if (price.isEmpty())
+				showMessage("Es muss ein Preis angegeben werden!");
+			else if (weight.isEmpty())
+				showMessage("Es muss ein Gewicht angegeben werden!");
+			else if (shop.isEmpty())
+				showMessage("Es muss ein Geschäft angegeben werden!");
+			else {
+				Bait bait = new Bait();
+
+				bait.setName(name);
+				bait.setBrand(brand);
+				try {
+				bait.setPrice(Float.valueOf(price));
+				}catch (NumberFormatException e) {
+					showMessage("Der Preis muss als Zahl angegeben werden");
+				}
+				bait.setColor(color);
+				bait.setShop(shop);
+				bait.setWeight(Float.valueOf(weight));
+				bait.setBaitType(baitType);
+
+				baitDao.persist(bait);
+
+				createBaitPanel.getNameField().setText("");
+				createBaitPanel.getBrand_field().setText("");
+				createBaitPanel.getPrice_field().setText("");
+				createBaitPanel.getWeightField().setText("");
+				createBaitPanel.getShopField().setText("");
+
+				createBaitPanel.validate();
+				createBaitPanel.repaint();
+
+			}
+		});
+	}
+
+}

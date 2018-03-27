@@ -1,16 +1,16 @@
 package util;
 
 public enum Weather {
-	RAINING(1), SNOWING(2), CLOUDY(3), SUNNY(4);
+	RAINING("Regen"), SNOWING("Schnee"), CLOUDY("Wolken"), SUNNY("Sonne");
 
-	private final int num;
+	private final String string;
 
-	private Weather(int num) {
-		this.num = num;
+	private Weather(String string) {
+		this.string = string;
 	}
 
 	@Override
 	public String toString() {
-		return String.valueOf(num);
+		return string;
 	}
 }

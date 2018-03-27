@@ -1,0 +1,150 @@
+package view;
+
+import java.awt.event.ActionListener;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFormattedTextField;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+import javax.swing.text.NumberFormatter;
+
+import control.PanelController;
+import util.BaitType;
+import view.ifaces.CreateBaitPanel;
+
+public class CreateBaitPanelImpl extends ControlledPanel implements CreateBaitPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private JTextField nameField;
+	private JTextField brand_field;
+	private JFormattedTextField price_field;
+	private JFormattedTextField weightField;
+	private JTextField shopField;
+	private JLabel shop;
+	private JLabel weight;
+	private JComboBox<util.Color> colorBox;
+	private JLabel color;
+	private JComboBox<BaitType> baitBox;
+	private JLabel bait_type;
+	private JLabel price;
+	private JLabel brand;
+	private JLabel name;
+	private JButton createButton;
+
+	/**
+	 * Create the panel.
+	 */
+	public CreateBaitPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		createButton.addActionListener(actionListener);
+	}
+
+	public JTextField getNameField() {
+		return nameField;
+	}
+
+	public JTextField getBrand_field() {
+		return brand_field;
+	}
+
+	public JTextField getPrice_field() {
+		return price_field;
+	}
+
+	public JTextField getWeightField() {
+		return weightField;
+	}
+
+	public JTextField getShopField() {
+		return shopField;
+	}
+
+	public JComboBox<util.Color> getColorBox() {
+		return colorBox;
+	}
+
+	public JComboBox<BaitType> getBaitBox() {
+		return baitBox;
+	}
+
+	public JButton getCreateButton() {
+		return createButton;
+	}
+
+	@Override
+	protected void initPanel() {
+
+		NumberFormat format = new DecimalFormat("#.##");
+		format.setMinimumFractionDigits(2);
+		format.setMaximumFractionDigits(2);
+		format.setRoundingMode(RoundingMode.HALF_UP);
+		NumberFormatter formatter = new NumberFormatter(format);
+		formatter.setValueClass(Float.class);
+		formatter.setMinimum(0);
+		formatter.setMaximum(Float.MAX_VALUE);
+		formatter.setAllowsInvalid(false);
+		formatter.setCommitsOnValidEdit(true);
+
+		name = new JLabel("Produktname");
+		contentPanel.add(name);
+
+		nameField = new JTextField();
+		contentPanel.add(nameField);
+		nameField.setColumns(10);
+
+		brand = new JLabel("Marke");
+		contentPanel.add(brand);
+
+		brand_field = new JTextField();
+		contentPanel.add(brand_field);
+		brand_field.setColumns(10);
+
+		price = new JLabel("Preis");
+		contentPanel.add(price);
+
+		price_field = new JFormattedTextField(format);
+		contentPanel.add(price_field);
+		price_field.setColumns(10);
+
+		bait_type = new JLabel("Ködertyp");
+		contentPanel.add(bait_type);
+
+		baitBox = new JComboBox<BaitType>(BaitType.values());
+		contentPanel.add(baitBox);
+
+		color = new JLabel("Farbe");
+		contentPanel.add(color);
+
+		colorBox = new JComboBox<util.Color>(util.Color.values());
+		contentPanel.add(colorBox);
+
+		weight = new JLabel("Gewicht");
+		contentPanel.add(weight);
+
+		weightField = new JFormattedTextField(formatter);
+		contentPanel.add(weightField);
+		weightField.setColumns(10);
+
+		shop = new JLabel("Geschäft");
+		contentPanel.add(shop);
+
+		shopField = new JTextField();
+		contentPanel.add(shopField);
+		shopField.setColumns(10);
+
+		createButton = new JButton("Anlegen");
+		contentPanel.add(createButton);
+	}
+
+}

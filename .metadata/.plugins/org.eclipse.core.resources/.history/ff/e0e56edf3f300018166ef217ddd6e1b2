@@ -1,0 +1,28 @@
+package control;
+
+import java.io.File;
+
+import javax.swing.JFileChooser;
+
+import view.ifaces.CreateSpeciesPanel;
+
+public class CreateSpeciesController extends PanelController {
+
+	File image;
+
+	@Override
+	public void setActionListeners() {
+		CreateSpeciesPanel createSpeciesPanel = (CreateSpeciesPanel) controlledPanel;
+
+		createSpeciesPanel.setChooseImageButtonActionListener(e -> {
+			JFileChooser chooser = new JFileChooser();
+
+			int choosen = chooser.showOpenDialog(null);
+
+			if (choosen == JFileChooser.APPROVE_OPTION)
+				image = chooser.getSelectedFile();
+		});
+
+	}
+
+}

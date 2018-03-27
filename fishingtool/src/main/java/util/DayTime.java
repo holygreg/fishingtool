@@ -1,17 +1,17 @@
 package util;
 
 public enum DayTime {
-	MORNING(1), FORENOON(2), MIDDAY(3), AFTERNOON(4), EVENING(5), NIGHT(6);
+	MORNING("Morgens"), FORENOON("Vormittags"), MIDDAY("Mittags"), AFTERNOON("Nachmittags"), EVENING("Abend"), NIGHT("Nacht");
 
-	private final int num;
+	private final String string;
 
-	DayTime(final int num) {
-		this.num = num;
+	DayTime(final String string) {
+		this.string = string;
 	}
 
 	@Override
 	public String toString() {
-		return String.valueOf(num);
+		return string;
 	}
 
 }

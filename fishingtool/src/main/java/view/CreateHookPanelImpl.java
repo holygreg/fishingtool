@@ -1,16 +1,12 @@
 package view;
 
-import java.awt.Dimension;
 import java.awt.event.ActionListener;
-import java.text.NumberFormat;
-
-import javax.swing.JButton;
-import javax.swing.JComboBox;
-import javax.swing.JFormattedTextField;
-import javax.swing.JLabel;
-import javax.swing.text.NumberFormatter;
 
 import control.PanelController;
+import view.elements.CustomButton;
+import view.elements.CustomComboBox;
+import view.elements.CustomLabel;
+import view.elements.CustomTextField;
 import view.ifaces.CreateHookPanel;
 
 public class CreateHookPanelImpl extends ControlledPanel implements CreateHookPanel {
@@ -24,74 +20,63 @@ public class CreateHookPanelImpl extends ControlledPanel implements CreateHookPa
 		super(panelController);
 	}
 
-	private JLabel hook_size;
-	private JLabel barb;
-	private JFormattedTextField hook_sizeField;
-	private JComboBox<String> barb_box;
-	private JButton createButton;
+	private CustomLabel hook_size;
+	private CustomLabel barb;
+	private CustomTextField hook_sizeField;
+	private CustomComboBox<String> barb_box;
+	private CustomButton createButton;
 
 	@Override
 	protected void initPanel() {
-		hook_size = new JLabel("Hakengröße");
-		hook_size.setPreferredSize(new Dimension(128, 19));
-		hook_size.setMinimumSize(new Dimension(128, 19));
-		hook_size.setMaximumSize(new Dimension(128, 19));
+		hook_size = new CustomLabel("Hakengröße");
 		contentPanel.add(hook_size);
 
-		NumberFormat format = NumberFormat.getInstance();
-		NumberFormatter formatter = new NumberFormatter(format);
-		formatter.setValueClass(Integer.class);
-		formatter.setMinimum(0);
-		formatter.setMaximum(Integer.MAX_VALUE);
-		formatter.setAllowsInvalid(false);
-		formatter.setCommitsOnValidEdit(true);
-
-		hook_sizeField = new JFormattedTextField(formatter);
+		hook_sizeField = new CustomTextField();
 		contentPanel.add(hook_sizeField);
 		hook_sizeField.setColumns(10);
 
-		barb = new JLabel("Widerhaken");
+		barb = new CustomLabel("Widerhaken");
 		contentPanel.add(barb);
 
-		barb_box = new JComboBox<String>(new String[] { "Ja", "Nein" });
+		barb_box = new CustomComboBox<String>(new String[] { "Ja", "Nein" });
 		contentPanel.add(barb_box);
 
-		JLabel fill1 = new JLabel();
+		CustomLabel fill1 = new CustomLabel();
 		contentPanel.add(fill1);
-		
-		JLabel fill2 = new JLabel();
+
+		CustomLabel fill2 = new CustomLabel();
 		contentPanel.add(fill2);
-		
-		JLabel fill3 = new JLabel();
+
+		CustomLabel fill3 = new CustomLabel();
 		contentPanel.add(fill3);
-		
-		JLabel fill4 = new JLabel();
+
+		CustomLabel fill4 = new CustomLabel();
 		contentPanel.add(fill4);
-		
-		JLabel fill5 = new JLabel();
+
+		CustomLabel fill5 = new CustomLabel();
 		contentPanel.add(fill5);
-		
-		JLabel fill6 = new JLabel();
+
+		CustomLabel fill6 = new CustomLabel();
 		contentPanel.add(fill6);
-		
-		JLabel fill7 = new JLabel();
+
+		CustomLabel fill7 = new CustomLabel();
 		contentPanel.add(fill7);
-		
-		JLabel fill8 = new JLabel();
+
+		CustomLabel fill8 = new CustomLabel();
 		contentPanel.add(fill8);
-		
-		JLabel fill9 = new JLabel();
+
+		CustomLabel fill9 = new CustomLabel();
 		contentPanel.add(fill9);
-		
-		JLabel fill10 = new JLabel();
+
+		CustomLabel fill10 = new CustomLabel();
 		contentPanel.add(fill10);
-		
-		createButton = new JButton("Anlegen");
+
+		createButton = new CustomButton("Anlegen");
 		contentPanel.add(createButton);
-		
-		JLabel fill11 = new JLabel();
+
+		CustomLabel fill11 = new CustomLabel();
 		contentPanel.add(fill11);
-	
+
 	}
 
 	@Override
@@ -99,19 +84,19 @@ public class CreateHookPanelImpl extends ControlledPanel implements CreateHookPa
 		createButton.addActionListener(actionListener);
 	}
 
-	public JButton getCreateButton() {
+	public CustomButton getCreateButton() {
 		return createButton;
 	}
 
-	public void setCreateButton(JButton createButton) {
+	public void setCreateButton(CustomButton createButton) {
 		this.createButton = createButton;
 	}
 
-	public JFormattedTextField getHook_sizeField() {
+	public CustomTextField getHook_sizeField() {
 		return hook_sizeField;
 	}
 
-	public JComboBox<String> getBarb_box() {
+	public CustomComboBox<String> getBarb_box() {
 		return barb_box;
 	}
 

@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFormattedTextField;
+import javax.swing.JTextField;
 
 public interface CreateHookPanel {
 
@@ -12,7 +13,7 @@ public interface CreateHookPanel {
 
 	public JButton getCreateButton();
 
-	public JFormattedTextField getHook_sizeField();
+	public JTextField getHook_sizeField();
 
 	public JComboBox<String> getBarb_box();
 }

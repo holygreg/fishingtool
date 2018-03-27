@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;num&apos; in &apos;util.Weather.Weather(...)&apos; to &apos;string&apos;&#x0A;- Original project: &apos;fishingtool&apos;&#x0A;- Original element: &apos;util.Weather.Weather(int).num&apos;&#x0A;- Renamed element: &apos;num&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;num&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;util{Weather.java[Weather~Weather~I@num!155!161!159!161!I!0!true" name="string" references="true" stamp="1522181720983" version="1.0"/>
+</session>

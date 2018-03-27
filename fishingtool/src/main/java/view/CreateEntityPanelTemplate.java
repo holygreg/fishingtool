@@ -40,10 +40,10 @@ public class CreateEntityPanelTemplate extends JPanel {
 								new TitledBorder(new LineBorder(new Color(0, 0, 0), 2), borderName, TitledBorder.CENTER,
 										TitledBorder.ABOVE_TOP, null, new Color(51, 51, 51)),
 								new EmptyBorder(20, 20, 20, 20)));
-		this.decoratablePanel.getContentPanel().setBounds(12, 12, 309, 248);
+		this.decoratablePanel.getContentPanel().setBounds(70, 70, 800, 400);
 		add(this.decoratablePanel.getContentPanel());
 		this.decoratablePanel.getContentPanel()
-				.setLayout(new GridLayout(this.gridLayoutRows, this.gridLayoutCols, 1, 4));
+				.setLayout(new GridLayout(this.gridLayoutRows, this.gridLayoutCols, 10, 10));
 	}
 
 	public void setGridLayoutRows(int gridLayoutRows) {

@@ -1,0 +1,133 @@
+package view;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+import org.jdesktop.swingx.JXDatePicker;
+
+import com.qt.datapicker.DatePicker;
+
+import control.PanelController;
+import util.FeedingType;
+import view.ifaces.CreateSpeciesPanel;
+
+public class CreateSpeciesPanelImpl extends ControlledPanel implements CreateSpeciesPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private JLabel name;
+	private JLabel feedingType;
+	private JLabel minimumLenght;
+	private JLabel startClosedSession;
+	private JLabel endClosedSession;
+	private JLabel image;
+	private JTextField name_field;
+	private JComboBox<FeedingType> feedingTypeBox;
+	private JTextField minimumLengthField;
+	private JXDatePicker startClosedSessionPicker;
+	private JXDatePicker endClosesSessionPicker;
+	private JButton chooseImageButton;
+	private JButton createButton;
+
+	public CreateSpeciesPanelImpl(PanelController panelController) {
+		super(panelController);
+	}
+
+	@Override
+	protected void initPanel() {
+		name = new JLabel("Spezies");
+		contentPanel.add(name);
+
+		name_field = new JTextField();
+		contentPanel.add(name_field);
+
+		feedingType = new JLabel("Nahrung");
+		contentPanel.add(feedingType);
+
+		feedingTypeBox = new JComboBox<>(FeedingType.values());
+		contentPanel.add(feedingTypeBox);
+
+		minimumLenght = new JLabel("Mindestmaß");
+		contentPanel.add(minimumLenght);
+
+		minimumLengthField = new JTextField();
+		contentPanel.add(minimumLengthField);
+
+		startClosedSession = new JLabel("Start der Schonzeit");
+		contentPanel.add(startClosedSession);
+
+		startClosedSessionPicker = new JXDatePicker();
+		contentPanel.add(startClosedSessionPicker);
+
+		endClosedSession = new JLabel("Ende der Schonzeit");
+		contentPanel.add(endClosedSession);
+
+		endClosesSessionPicker = new JXDatePicker();
+		contentPanel.add(endClosesSessionPicker);
+
+		image = new JLabel("Bild");
+		contentPanel.add(image);
+
+		chooseImageButton = new JButton("Bild auswählen");
+		contentPanel.add(chooseImageButton);
+
+		createButton = new JButton("Anlegen");
+
+	}
+
+	@Override
+	public void setCreateButtonActionListener(ActionListener actionListener) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public JTextField getNameField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getChooseImageButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JXDatePicker getStartClosedSessionPicker() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JXDatePicker getEndClosedSessionPicker() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JTextField getMinimumLengthField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JComboBox<FeedingType> getFeedingTypeBox() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setChooseImageButtonActionListener(ActionListener actionListener) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

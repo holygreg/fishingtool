@@ -1,0 +1,16 @@
+package view.elements;
+
+import javax.swing.JComboBox;
+
+public class CustomComboBox<E> extends JComboBox<E> {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	public CustomComboBox(E[] items){
+		super(items);
+	}
+
+}

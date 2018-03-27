@@ -40,7 +40,7 @@ public class CreateBaitController extends PanelController {
 			color = (Color) createBaitPanel.getColorBox().getSelectedItem();
 			shop = createBaitPanel.getShopField().getText();
 			baitType = (BaitType) createBaitPanel.getBaitBox().getSelectedItem();
-			
+
 			System.out.println(createBaitPanel.getNameField().getSize());
 
 			if (name.isEmpty())
@@ -58,10 +58,20 @@ public class CreateBaitController extends PanelController {
 
 				bait.setName(name);
 				bait.setBrand(brand);
-				bait.setPrice(Float.valueOf(price));
+				try {
+					bait.setPrice(Float.valueOf(price));
+				} catch (NumberFormatException exception) {
+					showMessage("Der Preis muss als Zahl angegeben werden");
+					return;
+				}
 				bait.setColor(color);
 				bait.setShop(shop);
-				bait.setWeight(Float.valueOf(weight));
+				try {
+					bait.setWeight(Float.valueOf(weight));
+				} catch (NumberFormatException exception) {
+					showMessage("Das Gewicht muss als Zahl angegeben werden");
+					return;
+				}
 				bait.setBaitType(baitType);
 
 				baitDao.persist(bait);

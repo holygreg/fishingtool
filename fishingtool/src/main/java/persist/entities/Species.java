@@ -9,6 +9,7 @@ import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Lob;
 import javax.persistence.OneToMany;
 
 import persist.entities.columntypes.DateRange;
@@ -29,6 +30,7 @@ public class Species implements Serializable{
 	@Column(name = "name")
 	private String name;
 
+	@Lob
 	@Column(name = "image")
 	private byte[] image;
 
