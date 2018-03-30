@@ -7,7 +7,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToMany;
@@ -23,10 +22,6 @@ public class Species implements Serializable{
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue
-	@Column(name = "id")
-	private int id;
-
 	@Column(name = "name")
 	private String name;
 
@@ -85,14 +80,6 @@ public class Species implements Serializable{
 
 	public void setFeedingType(FeedingType feedingType) {
 		this.feedingType = feedingType;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
 	}
 
 }

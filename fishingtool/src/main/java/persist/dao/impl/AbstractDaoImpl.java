@@ -19,7 +19,7 @@ import persist.dao.interfaces.DaoInterface;
  * @param <T>
  *            The type of the respective Entity
  */
-public abstract class AbstractDaoImpl<T> implements DaoInterface<T> {
+public abstract class AbstractDaoImpl<T,K> implements DaoInterface<T,K> {
 
 	private Session currentSession;
 
@@ -88,21 +88,11 @@ public abstract class AbstractDaoImpl<T> implements DaoInterface<T> {
 	}
 
 	@Override
-	public void persist(T entity) {
+	public void saveOrUpdate(T entity) {
 		openCurrentSessionwithTransaction();
-		getCurrentSession().save(entity);
+		getCurrentSession().saveOrUpdate(entity);
 		closeCurrentSessionwithTransaction();
 	}
-
-	@Override
-	public void update(T entity) {
-		openCurrentSessionwithTransaction();
-		getCurrentSession().update(entity);
-		closeCurrentSessionwithTransaction();
-	}
-
-	@Override
-	public abstract T findById(int id);
 
 	@Override
 	public void delete(T entity) {
@@ -110,9 +100,6 @@ public abstract class AbstractDaoImpl<T> implements DaoInterface<T> {
 		getCurrentSession().delete(entity);
 		closeCurrentSessionwithTransaction();
 	}
-
-	@Override
-	public abstract List<T> findAll();
 
 	@Override
 	public void deleteAll() {

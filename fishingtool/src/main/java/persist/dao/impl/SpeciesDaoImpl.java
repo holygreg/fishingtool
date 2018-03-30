@@ -5,11 +5,13 @@ import java.util.List;
 import persist.dao.interfaces.SpeciesDaoInterface;
 import persist.entities.Species;
 
-public class SpeciesDaoImpl extends AbstractDaoImpl<Species> implements SpeciesDaoInterface {
+public class SpeciesDaoImpl extends AbstractDaoImpl<Species, String> implements SpeciesDaoInterface {
 
 	@Override
-	public Species findById(int id) {
+	public Species findById(String id) {
+		openCurrentSessionwithTransaction();
 		Species species = (Species) getCurrentSession().get(Species.class, id);
+		closeCurrentSessionwithTransaction();
 		return species;
 	}
 

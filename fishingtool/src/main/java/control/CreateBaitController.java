@@ -74,7 +74,7 @@ public class CreateBaitController extends PanelController {
 				}
 				bait.setBaitType(baitType);
 
-				baitDao.persist(bait);
+				baitDao.saveOrUpdate(bait);
 
 				createBaitPanel.getNameField().setText("");
 				createBaitPanel.getBrand_field().setText("");

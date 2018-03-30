@@ -99,9 +99,9 @@ public class MainApplicationFrame extends JFrame {
 
 			MenuContainer species = new MenuContainer("species", new JMenu("Species"));
 
-			species.addMenuItemContainer("species_anlegen",
-					new MenuItemContainer("anlegen", new JMenuItem("Species anlegen"), new CreateEntityPanelTemplate(
-							new CreateSpeciesPanelImpl(new CreateSpeciesController()), "Species anlegen", 8, 2)));
+			species.addMenuItemContainer("spezies_anlegen",
+					new MenuItemContainer("anlegen", new JMenuItem("Spezies anlegen"), new CreateEntityPanelTemplate(
+							new CreateSpeciesPanelImpl(new CreateSpeciesController()), "Spezies anlegen", 8, 2)));
 			
 			MenuContainer fang = new MenuContainer("fang", new JMenu("Fang"));
 			

@@ -12,7 +12,7 @@ public abstract class ControlledPanel extends JPanel implements DecoratablePanel
 	 */
 	private static final long serialVersionUID = 1L;
 
-	private PanelController panelController;
+	protected PanelController panelController;
 
 	protected JPanel contentPanel;
 

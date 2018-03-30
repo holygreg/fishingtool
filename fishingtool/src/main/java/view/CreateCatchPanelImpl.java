@@ -1,19 +1,14 @@
 package view;
 
 import java.awt.event.ActionListener;
+import java.util.Date;
 import java.util.List;
-import java.util.Stack;
-import java.util.stream.Collectors;
+import java.util.Set;
 
 import org.jdesktop.swingx.JXDatePicker;
 
+import control.CreateCatchController;
 import control.PanelController;
-import persist.dao.impl.BaitDaoImpl;
-import persist.dao.impl.HookDaoImpl;
-import persist.dao.impl.SpeciesDaoImpl;
-import persist.dao.interfaces.BaitDaoInterface;
-import persist.dao.interfaces.HookDaoInterface;
-import persist.dao.interfaces.SpeciesDaoInterface;
 import util.DayTime;
 import util.Weather;
 import view.elements.CustomButton;
@@ -113,15 +108,11 @@ public class CreateCatchPanelImpl extends ControlledPanel implements CreateCatch
 
 	@Override
 	protected void initPanel() {
-		SpeciesDaoInterface speciesDao = new SpeciesDaoImpl();
-		BaitDaoInterface baitDao = new BaitDaoImpl();
-		HookDaoInterface hookDao = new HookDaoImpl();
+		CreateCatchController catchController = (CreateCatchController) panelController;
 
-		List<String> speciesNames = speciesDao.findAll().stream().map(x -> x.getName()).collect(Collectors.toList());
-		List<String> baitNames = baitDao.findAll().stream().map(x -> x.getName()).collect(Collectors.toList());
-		List<String> hookNames = hookDao.findAll().stream()
-				.map(x -> String.valueOf(x.getHookSize()) + "," + (x.isBarb() ? "Widerhaken" : "ohne Widerhaken"))
-				.collect(Collectors.toList());
+		List<String> speciesNames = catchController.getAllSpeciesFromDatabase();
+		List<String> baitNames = catchController.getAllBaitsFromDatabase();
+		Set<String> hookNames = catchController.getAllHooksFromDatabase().keySet();
 
 		species = new CustomLabel("Spezies");
 		contentPanel.add(species);
@@ -135,7 +126,7 @@ public class CreateCatchPanelImpl extends ControlledPanel implements CreateCatch
 		catchDate = new CustomLabel("Fangdatum");
 		contentPanel.add(catchDate);
 
-		catchDatePicker = new JXDatePicker();
+		catchDatePicker = new JXDatePicker(new Date());
 		contentPanel.add(catchDatePicker);
 
 		contentPanel.add(new CustomLabel());

@@ -3892,3 +3892,401 @@ java.lang.NullPointerException: null
 2018-03-27 23:24:12,446 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
 2018-03-27 23:24:12,447 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-03-27 23:24:12,447 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:02:58,577 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-03-29 19:22:51,513 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:22:51,514 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:22:51,517 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:22:51,517 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:23:33,501 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:23:33,501 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:23:33,503 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:23:33,503 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:23:42,100 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:23:42,100 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:23:42,102 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:23:42,102 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:23:57,975 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:23:57,975 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:23:57,977 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:23:57,977 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:25:02,054 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:25:02,054 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:25:02,055 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:25:02,055 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:25:15,061 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:25:15,061 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:25:15,063 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:25:15,063 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:25:19,755 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:25:19,755 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:25:19,757 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:25:19,757 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:26:36,173 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:26:36,173 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:26:36,192 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:26:36,192 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:29:29,206 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:29:29,206 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:29:29,207 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:29:29,207 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:33:24,090 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:33:24,090 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:33:24,092 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:33:24,092 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:36:29,338 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:36:29,338 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:36:29,339 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:36:29,339 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:36:50,774 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:36:50,774 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:36:50,776 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:36:50,776 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:37:32,728 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:37:32,728 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:37:32,729 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:37:32,729 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:37:40,130 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:37:40,131 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:37:40,132 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:37:40,132 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:38:15,273 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:38:15,273 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:38:15,275 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:38:15,275 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:38:20,826 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:38:20,826 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:38:20,830 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:38:20,830 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:39:14,019 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:39:14,019 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:39:14,021 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:39:14,021 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:44:55,776 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:44:55,779 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:44:55,782 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:44:55,782 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 19:44:59,484 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:44:59,484 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 19:44:59,485 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 19:44:59,485 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:45:34,289 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:45:34,289 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:45:34,291 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:45:34,291 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:49:36,365 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:49:36,365 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:49:36,367 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:49:36,367 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:49:40,087 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:49:40,087 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:49:40,088 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:49:40,088 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:53:50,758 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:53:50,758 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:53:50,759 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:53:50,760 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:53:51,768 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:53:51,768 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:53:51,769 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:53:51,769 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:57:20,685 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:57:20,685 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:57:20,686 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:57:20,686 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:58:24,971 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:58:24,971 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:58:24,972 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:58:24,972 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:58:37,845 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:58:37,845 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:58:37,846 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:58:37,847 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:58:38,903 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:58:38,903 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:58:38,904 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:58:38,904 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:59:01,158 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:59:01,158 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:59:01,159 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:59:01,160 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-29 23:59:02,216 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:59:02,217 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-29 23:59:02,221 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-29 23:59:02,221 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 04:00:09,177 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 04:00:09,177 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 04:00:09,178 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 04:00:09,178 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 04:00:25,965 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 04:00:25,965 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 04:00:25,966 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 04:00:25,967 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 11:37:35,381 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-03-30 11:41:22,483 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:41:22,484 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 11:41:22,487 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:41:22,487 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 11:44:24,863 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:44:24,867 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 11:44:24,869 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:44:24,869 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 11:52:57,486 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:52:57,486 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 11:52:57,489 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:52:57,489 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 11:56:23,746 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:56:23,746 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 11:56:23,747 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:56:23,748 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 11:58:14,219 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:58:14,220 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 11:58:14,221 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 11:58:14,222 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:00:01,028 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:00:01,028 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:00:01,030 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:00:01,030 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:02:18,963 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:02:18,963 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:02:18,965 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:02:18,965 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:03:35,304 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:03:35,306 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:03:35,328 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:03:35,330 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:20:28,425 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:20:28,426 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:20:28,427 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:20:28,427 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:20:42,157 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:20:42,158 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:20:42,170 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:20:42,170 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:20:59,071 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:20:59,071 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:20:59,180 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:20:59,180 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:36:26,118 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:36:26,118 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:36:26,119 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:36:26,120 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:36:33,681 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:36:33,681 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:36:33,683 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:36:33,683 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:36:51,749 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:36:51,749 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:36:51,750 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:36:51,750 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:37:09,820 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:37:09,820 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:37:09,822 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:37:09,826 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:37:24,821 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:37:24,823 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:37:24,831 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:37:24,832 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:37:45,250 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:37:45,251 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:37:45,252 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:37:45,253 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:38:00,085 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:38:00,085 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:38:00,087 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:38:00,087 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:39:37,076 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:39:37,076 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:39:37,077 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:39:37,077 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:39:57,673 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:39:57,674 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:39:57,675 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:39:57,676 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:40:02,692 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:40:02,692 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:40:02,693 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:40:02,693 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:41:19,517 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:41:19,517 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:41:19,518 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:41:19,518 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:41:52,315 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:41:52,316 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:41:52,317 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:41:52,317 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:42:10,929 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:42:10,929 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:42:10,933 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:42:10,934 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:42:39,532 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:42:39,532 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:42:39,534 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:42:39,534 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:43:07,230 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:43:07,230 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:43:07,234 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:43:07,235 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:54:02,249 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:54:02,249 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:54:02,251 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:54:02,251 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:54:22,996 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:54:22,996 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:54:22,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:54:22,998 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:55:09,335 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:55:09,335 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:55:09,336 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:55:09,336 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 12:56:06,377 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:56:06,377 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 12:56:06,379 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 12:56:06,379 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:07:53,196 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:07:53,196 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:07:53,197 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:07:53,198 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:11:59,099 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:11:59,102 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:11:59,104 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:11:59,104 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:15:25,419 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:15:25,419 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:15:25,422 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:15:25,422 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:16:34,441 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:16:34,441 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:16:34,442 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:16:34,443 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:17:12,335 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:17:12,336 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:17:12,336 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:17:12,337 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:19:23,743 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:19:23,744 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:19:23,745 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:19:23,745 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:19:33,384 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:19:33,384 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:19:33,385 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:19:33,385 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:22:15,947 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:22:15,947 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:22:15,949 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:22:15,949 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:25:06,699 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:25:06,699 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:25:06,700 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:25:06,700 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:25:28,724 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:25:28,724 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:25:28,725 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:25:28,725 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:30:02,430 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:30:02,431 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:30:02,431 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:30:02,431 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:40:13,376 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:13,376 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:40:13,377 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:13,378 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:40:34,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:34,455 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:40:34,456 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:34,456 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:40:52,726 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:52,726 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:40:52,727 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:52,728 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:40:53,786 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:53,786 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:40:53,787 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:40:53,787 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:41:31,251 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:41:31,251 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:41:31,252 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:41:31,252 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:41:32,261 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:41:32,261 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:41:32,262 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:41:32,262 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:45:59,122 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:45:59,122 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:45:59,123 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:45:59,124 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:46:15,885 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:46:15,886 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:46:15,886 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:46:15,886 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:46:16,892 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:46:16,892 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:46:16,893 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:46:16,893 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:48:33,744 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:48:33,745 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:48:33,746 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:48:33,746 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:48:34,803 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:48:34,803 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:48:34,804 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:48:34,804 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:50:07,451 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:07,452 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:50:07,453 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:07,453 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:50:20,083 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:20,083 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:50:20,084 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:20,084 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:50:21,140 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:21,140 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:50:21,141 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:21,141 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:50:53,183 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:53,183 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:50:53,184 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:50:53,184 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:53:03,224 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:03,224 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:53:03,225 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:03,225 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:53:23,463 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:23,464 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:53:23,464 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:23,465 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:53:29,740 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:29,740 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:53:29,741 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:29,741 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:53:30,748 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:30,748 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:53:30,750 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:53:30,750 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:55:23,593 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:23,593 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:55:23,593 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:23,594 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:55:40,456 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:40,456 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:55:40,457 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:40,457 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:55:43,554 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:43,554 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:55:43,555 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:43,556 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:55:52,110 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:52,110 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:55:52,111 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:52,111 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:55:53,167 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:53,167 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:55:53,167 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:55:53,168 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:56:11,897 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:56:11,897 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:56:11,898 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:56:11,898 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources
+2018-03-30 13:56:12,953 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:56:12,953 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/main/resources
+2018-03-30 13:56:12,953 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-30 13:56:12,953 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/src/test/resources

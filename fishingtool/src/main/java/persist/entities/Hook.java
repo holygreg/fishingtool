@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.Set;
 
 import javax.persistence.Column;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -17,42 +18,33 @@ public class Hook implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	@Id
-	@GeneratedValue
-	@Column(name = "id")
-	private int id;
+	@EmbeddedId
+	private HookKey id;
 
-	@Column(name="hook_size")
-	private int hookSize;
-	
-	@Column(name="barb")
-	private boolean barb;
-	
-	@OneToMany(mappedBy="hook")
+	@OneToMany(mappedBy = "hook")
 	private Set<Catch> catches;
 
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	public int getHookSize() {
-		return hookSize;
-	}
-
-	public void setHookSize(int hookSize) {
-		this.hookSize = hookSize;
+		return id.getHookSize();
 	}
 
 	public boolean isBarb() {
-		return barb;
+		return id.isBarb();
 	}
 
-	public void setBarb(boolean barb) {
-		this.barb = barb;
+	public HookKey getId() {
+		return id;
 	}
 
+	public void setId(HookKey id) {
+		this.id = id;
+	}
+
+	public Set<Catch> getCatches() {
+		return catches;
+	}
+
+	public void setCatches(Set<Catch> catches) {
+		this.catches = catches;
+	}
 }

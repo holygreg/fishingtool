@@ -5,11 +5,13 @@ import java.util.List;
 import persist.dao.interfaces.BaitDaoInterface;
 import persist.entities.Bait;
 
-public class BaitDaoImpl extends AbstractDaoImpl<Bait> implements BaitDaoInterface {
+public class BaitDaoImpl extends AbstractDaoImpl<Bait,String> implements BaitDaoInterface {
 
 	@Override
-	public Bait findById(int id) {
+	public Bait findById(String id) {
+		openCurrentSessionwithTransaction();
 		Bait bait = (Bait) getCurrentSession().get(Bait.class, id);
+		closeCurrentSessionwithTransaction();
 		return bait;
 
 	}

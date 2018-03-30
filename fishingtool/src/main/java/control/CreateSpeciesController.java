@@ -89,7 +89,7 @@ public class CreateSpeciesController extends PanelController {
 				species.setImage(imageAsByteArray);
 				species.setClosedSession(new DateRange(startOfClosedSession, endOfClosedSession));
 
-				speciesDao.persist(species);
+				speciesDao.saveOrUpdate(species);
 
 				createSpeciesPanel.getNameField().setText("");
 				createSpeciesPanel.getMinimumLengthField().setText("");

@@ -10,6 +10,7 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
 import javax.persistence.ManyToOne;
 
 import util.DayTime;
@@ -55,7 +56,14 @@ public class Catch implements Serializable {
 	private Bait bait;
 
 	@ManyToOne
-	@JoinColumn(name = "hook_id", nullable = true)
+	@JoinColumns({
+        @JoinColumn(
+            name = "hook_size",
+            referencedColumnName = "hook_size"),
+        @JoinColumn(
+            name = "barb",
+            referencedColumnName = "barb")
+    })
 	private Hook hook;
 
 	@Column(name = "weight")

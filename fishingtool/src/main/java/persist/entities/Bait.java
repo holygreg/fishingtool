@@ -23,11 +23,7 @@ public class Bait implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue
-	@Column(name = "id")
-	private int id;
-
-	@Column(name = "name")
+	@Column(name = "name", nullable = false)
 	private String name;
 
 	@Column(name = "weight")
@@ -52,14 +48,6 @@ public class Bait implements Serializable {
 
 	@OneToMany(mappedBy = "bait")
 	private Set<Catch> catches;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getName() {
 		return name;
