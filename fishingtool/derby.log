@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Fri Mar 30 13:57:02 CEST 2018:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0162-76c4-a697-000006191a50 
-on database directory /home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool/fishingdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
-Loaded from file:/home/gregor/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+Thu May 03 20:17:03 CEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0163-2738-cc40-000005a90d90 
+on database directory C:\Eclipse_Workspaces\Fishing_Tool\fishingtool\fishingtool\fishingdb with class loader sun.misc.Launcher$AppClassLoader@2a139a55 
+Loaded from file:/C:/Users/grego/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_151-b12
-user.dir=/home/gregor/Eclipse_Workspaces/FishermansFriend/fishingtool
-os.name=Linux
+java.runtime.version=1.8.0_171-b11
+user.dir=C:\Eclipse_Workspaces\Fishing_Tool\fishingtool\fishingtool
+os.name=Windows 10
 os.arch=amd64
-os.version=4.4.0-116-generic
+os.version=10.0
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
